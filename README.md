@@ -6,14 +6,22 @@ De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 
 ## Use cases
 
-![actor interaction](https://github.com/LukevLuijn/osm_modeling/blob/main/export/use_case/actor_interaction.svg?raw=true "Actor interaction")
+Hieronder staan de verschillende naslag werken van de 'use case' weergegeven.
 
-![actor generalization](https://github.com/LukevLuijn/osm_modeling/blob/main/export/use_case/actor_generalization.svg?raw=true "Actor generalization")
+### Actor interaction
+![actor interaction](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/use_case/actor_interaction.svg?raw=true "Actor interaction")
 
-![stereotype - extend](https://github.com/LukevLuijn/osm_modeling/blob/main/export/use_case/extend.svg?raw=true "Stereotype - extend")
+### Actor generalization
+![actor generalization](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/use_case/actor_generalization.svg?raw=true "Actor generalization")
 
-![Stereotype - include](https://github.com/LukevLuijn/osm_modeling/blob/main/export/use_case/include.svg?raw=true "Stereotype - include")
+### Stereotype - extend
+![stereotype - extend](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/use_case/extend.svg?raw=true "Stereotype - extend")
 
-![use case packages](https://github.com/LukevLuijn/osm_modeling/blob/main/export/use_case/packages.svg?raw=true "Packages")
+### Stereotype - include
+![stereotype - include](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/use_case/include.svg?raw=true "Stereotype - include")
 
-![CRUD](https://github.com/LukevLuijn/osm_modeling/blob/main/export/use_case/CRUD.svg?raw=true "CRUD - create, read, update, delete")
+### Packages
+![use case packages](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/use_case/packages.svg?raw=true "Packages")
+
+### User defined stereotypes - CRUD
+![CRUD](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/use_case/CRUD.svg?raw=true "CRUD - create, read, update, delete")
