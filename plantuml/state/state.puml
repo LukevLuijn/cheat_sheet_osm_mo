@@ -17,13 +17,13 @@ state s1 as "simple state" {
     s1 : **exit** / doe iets eenmalig
 }
 
-[*] -right-> s1 : **turn on**
+[*] -right-> s1
 note top on link
     **initial state:**
     Hier begint de state machine.
 end note
 
-s1 -right-> [*] : **turn off**
+s1 -right-> [*]
 note top on link
     **final state:**
     Hier eindigt de state machine.
