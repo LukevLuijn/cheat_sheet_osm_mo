@@ -1,7 +1,7 @@
 @startuml
 'https://plantuml.com/use-case-diagram
 
-rectangle r1 as "generalization Lotte is een cutie"{
+rectangle r1 as "generalization"{
     package "security" as p1{
         usecase enter_password as uc1
         usecase change_password as uc2
