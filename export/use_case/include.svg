@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="541px" preserveAspectRatio="none" style="width:875px;height:541px;" version="1.1" viewBox="0 0 875 541" width="875px" zoomAndPan="magnify"><defs><filter height="300%" id="f1gcxpjw9x9lsy" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[005506d257fab70adc88451566f9129d]
+cluster r1--><rect fill="#FFFFFF" filter="url(#f1gcxpjw9x9lsy)" height="495" style="stroke: #000000; stroke-width: 1.5;" width="515" x="14" y="35"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="219" y="49.9951">&lt;&lt;include&gt;&gt;</text><ellipse cx="90.7756" cy="506.5236" fill="#FEFECE" filter="url(#f1gcxpjw9x9lsy)" rx="60.2756" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="50.2756" y="511.1721">place_order</text><ellipse cx="256.8339" cy="506.5668" fill="#FEFECE" filter="url(#f1gcxpjw9x9lsy)" rx="63.3339" ry="15.0668" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="212.3339" y="511.2152">cancel_order</text><ellipse cx="438.9597" cy="506.5919" fill="#FEFECE" filter="url(#f1gcxpjw9x9lsy)" rx="65.9597" ry="15.5919" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="390.9597" y="511.2404">change_order</text><ellipse cx="235.7805" cy="95.8813" fill="#FEFECE" filter="url(#f1gcxpjw9x9lsy)" rx="76.2805" ry="33.8813" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="195.7805" y="82.8032">add_to_cart</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="163.7445" x2="307.8164" y1="86.105" y2="86.105"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="174.2805" y="103.1001">extension point</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="200.2805" y="119.397">user_login</text><ellipse cx="235.8345" cy="337.5236" fill="#FEFECE" filter="url(#f1gcxpjw9x9lsy)" rx="26.3345" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="219.3345" y="342.1721">login</text><path d="M537,8 L537,184.4609 L863,184.4609 L863,18 L853,8 L537,8 " fill="#FBFB77" filter="url(#f1gcxpjw9x9lsy)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M853,8 L853,18 L863,18 L853,8 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="23" x="543" y="25.0669">Het</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="570" y="25.0669">&lt;&lt;include&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="158" x="671" y="25.0669">stereotype betekend dat</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="271" x="543" y="40.1997">een bepaalde use usecase niet uitgevoerd</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="284" x="543" y="55.3325">kan worden zonder het ge-include onderdeel</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="112" x="543" y="70.4653">ook uit te voeren.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="547" y="85.5981"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="269" x="543" y="100.731">In dit voorbeeld staat weergegeve dat een</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="305" x="543" y="115.8638">gebruiker geen order kan plaatsen zonder eerst</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="79" x="543" y="130.9966">in te loggen.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="286" x="543" y="146.1294">Verder kan een order niet meer geannuleerd</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="265" x="543" y="161.2622">of veranderd worden als de gebruiker niet</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="543" y="176.395">ingelogd is.</text><!--MD5=[75f9a75eee058a2f7a657e4ad8dc0a98]
+reverse link r1_uc5 to r1_uc1--><path d="M205.3874,342.835 C169.1786,350.963 110.4848,370.2727 84,413 C68.906,437.3508 77.8749,472.4126 84.9544,491.9482 " fill="none" id="r1_uc5&lt;-r1_uc1" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="210.56,341.7155,200.9175,339.7099,205.6732,342.7732,202.6098,347.5289,210.56,341.7155" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="85" y="426.0669">«include»</text><!--MD5=[ffc5e54ea12af55c9432846ee12d5615]
+link r1_uc1 to r1_uc5--><!--MD5=[d09dd43ce2eb99d046d0ad4ceeb0d0eb]
+reverse link r1_uc5 to r1_uc2--><path d="M238.4689,357.369 C242.7102,391.5014 251.2908,460.5546 255.102,491.2253 " fill="none" id="r1_uc5&lt;-r1_uc2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="237.8269,352.202,234.9675,361.6266,238.4436,357.1638,242.9064,360.6399,237.8269,352.202" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="248" y="426.0669">«include»</text><!--MD5=[585728734bfc1468b997ae9603600496]
+link r1_uc2 to r1_uc5--><!--MD5=[66930ddf8bfbe071843c20f8521f1882]
+reverse link r1_uc5 to r1_uc3--><path d="M254.6347,353.0136 C293.4255,385.3074 382.4259,459.4014 420.8204,491.3653 " fill="none" id="r1_uc5&lt;-r1_uc3" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="250.5993,349.6541,254.957,358.4865,254.442,352.8531,260.0754,352.3381,250.5993,349.6541" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="346" y="426.0669">«include»</text><!--MD5=[0d95466005fa7baf31c16d4b06391945]
+link r1_uc3 to r1_uc5--><!--MD5=[6267f1392a8e2d136bee94cc9a691a7e]
+link r1_uc5 to r1_uc4--><path d="M237.5221,322.7622 C238.3039,313.8635 239.0788,302.2911 239,292 C238.585,237.7734 237.5243,175.1153 236.7826,135.5313 " fill="none" id="r1_uc5-&gt;r1_uc4" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="236.6847,130.342,232.8554,139.4159,236.7791,135.3411,240.854,139.2649,236.6847,130.342" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="239" y="258.0669">«extend»</text><!--MD5=[a47661e6e98f03935fd622c9728af6f6]
+link r1_uc4 to r1_uc5--><!--MD5=[2618cd5186ae068ed04e48bb06f908c1]
+@startuml
+
+rectangle r1 as "<<include>>"{
+    usecase r1_uc1 as "place_order"
+    usecase r1_uc2 as "cancel_order"
+    usecase r1_uc3 as "change_order"
+    usecase r1_uc4 as "add_to_cart
+    - -
+    **extension point**
+    user_login"
+    usecase r1_uc5 as "login"
+
+    r1_uc5 <.. r1_uc1 : **<<include>>**
+    r1_uc5 <.. r1_uc2 : **<<include>>**
+    r1_uc5 <.. r1_uc3 : **<<include>>**
+    r1_uc5 ..> r1_uc4 : <<extend>>
+
+    r1_uc1 -[hidden]down-> r1_uc5
+    r1_uc2 -[hidden]down-> r1_uc5
+    r1_uc3 -[hidden]down-> r1_uc5
+    r1_uc4 -[hidden]right-> r1_uc5
+}
+note as n1
+    Het **<<include>>** stereotype betekend dat
+    een bepaalde use usecase niet uitgevoerd
+    kan worden zonder het ge-include onderdeel
+    ook uit te voeren.
+
+    In dit voorbeeld staat weergegeve dat een
+    gebruiker geen order kan plaatsen zonder eerst
+    in te loggen.
+    Verder kan een order niet meer geannuleerd
+    of veranderd worden als de gebruiker niet
+    ingelogd is.
+end note
+
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 12:38:32 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+33
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

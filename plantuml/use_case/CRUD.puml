@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+rectangle r1 as "User defined stereotypes"{
+    actor r1_a1 as "user"
+    usecase r1_uc1 as "//<<CRUD>>//
+     maintain"
+
+     r1_a1 -right- r1_uc1
+}
+
+rectangle r2 as "elaboration"{
+    actor r2_a1 as "user"
+
+    rectangle r3 as "//<<CRUD>>//"{
+        usecase r2_uc1 as "create"
+        usecase r2_uc2 as "read"
+        usecase r2_uc3 as "update"
+        usecase r2_uc4 as "delete"
+
+        r2_uc1-[hidden]down-r2_uc2
+        r2_uc2-[hidden]down-r2_uc3
+        r2_uc3-[hidden]down-r2_uc4
+    }
+
+    r2_a1 -right- r2_uc1
+    r2_a1 -right- r2_uc2
+    r2_a1 -right- r2_uc3
+    r2_a1 -right- r2_uc4
+}
+
+note as n1
+    In dit voorbeeld is het gebruik en de uitwerking van
+    een **user defined stereotype (UDS)** weergegeven.
+
+    Het UDS uit dit voorbeeld is **<<CRUD>>**, CRUD staat
+    voor create, read, update en delete.
+
+    Een UDS houdt in dat het een samenvatting is van
+    veel voorkomende use case combinaties die altijd in
+    dezelfde vorm voorkomen.
+    CRUD komt veel voor bij dingen zoals databases,
+    het aanmaken, bekijken, veranderen en verwijderen
+    van onderdelen.
+end note
+r2 .[hidden]. r1
+@enduml

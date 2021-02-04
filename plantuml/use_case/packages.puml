@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+rectangle r1 as "Home automation" {
+
+    package "security" as r1_p1{
+       usecase change_password as p1_uc1
+       usecase enter_password as p1_uc2
+       p1_uc1 -[hidden]down-> p1_uc2
+    }
+
+    package "lightControl" as r1_p2{
+        usecase turn_on_lights as p2_uc1
+        usecase turn_off_lights as p2_uc2
+        p2_uc1 -[hidden]down-> p2_uc2
+    }
+
+    package "heatingSystem" as r1_p3 {
+        usecase turn_on_thermostat as p3_uc1
+        usecase turn_off_thermostat as p3_uc2
+         p3_uc1 -[hidden]down-> p3_uc2
+    }
+
+    r1_p1 -[hidden]right-> r1_p2
+    r1_p2 -[hidden]right-> r1_p3
+}
+
+'note top of r1
+note as n1
+Systeem grens die aangeeft wat onderdeel is
+van het systeem en wat niet.
+
+In dit voorbeeld vallen de packages
+- **"security"**
+- **"lightControl"**
+- **"heatingSystem"**
+
+binnen het "Home automation"-systeem.
+end note
+
+note as n2
+Een package kan gebruikt worden voor het onderverdelen
+van verschillende functionaliteiten van een systeem.
+
+In dit voorbeeld is te zien dat de functionaliteiten
+onderverdeeld zijn in drie segmenten.
+
+Deze packages kunnen verwijzen naar andere systemen of
+ze kunnen use cases bevatten.
+end note
+
+n1 .. r1
+n1 .[hidden]. r1_p1
+
+n2 .. r1_p1
+n2 .[hidden]. r1_p2
+
+@enduml

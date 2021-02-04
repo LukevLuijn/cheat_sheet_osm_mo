@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+rectangle r1 as "generalization"{
+    package "security" as p1{
+        usecase enter_password as uc1
+        usecase change_password as uc2
+
+        uc1 -[hidden]up-> uc2
+    }
+
+    actor "admin" as a1
+    actor "resident" as a2
+
+    a1 -right- uc1
+    a2 -right- uc2
+    a2 --|> a1
+}
+
+note as n1
+    De volle pijl tussen actoren
+    staat voor een **generalisatie**.
+
+    Een generalisatie betekend
+    dat de actor vanaf waar
+    de pijl komt alle rechten
+    heeft van de actor waar
+    de pijl naar toe wijst.
+end note
+
+@enduml

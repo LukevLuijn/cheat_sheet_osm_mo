@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+rectangle r1 as "<<extend>>"{
+    usecase r1_uc1 as "place_order"
+    usecase r1_uc2 as "cancel_order"
+    usecase r1_uc3 as "change_order"
+    usecase r1_uc4 as "add_to_cart
+    --
+    **extension point**
+    user_login"
+    usecase r1_uc5 as "login"
+
+    r1_uc5 <.. r1_uc1 : <<include>>
+    r1_uc5 <.. r1_uc2 : <<include>>
+    r1_uc5 <.. r1_uc3 : <<include>>
+    r1_uc5 ..> r1_uc4 : **<<extend>>**
+    note right on link
+        **condition** user opens personal cart
+        **extension point** login required
+    end note
+
+    r1_uc1 -[hidden]down-> r1_uc5
+    r1_uc2 -[hidden]down-> r1_uc5
+    r1_uc3 -[hidden]down-> r1_uc5
+    r1_uc4 -[hidden]right-> r1_uc5
+}
+
+note as n1
+    Het **<<extend>>** stereotype geeft een
+    alternative route weer.
+    Als deze use case uitgevoerd wordt
+    is het mogelijk dat de andere
+    ook uitgevoerd zal worden maar niet
+    noodzakelijk.
+
+    Een **"extension point"** kan worden
+    gebruikt voor een meer gedetaileerde
+    uitleg van de procedure op een andere
+    locatie om de overzichtelijkheid te
+    behouden.
+end note
+
+@enduml

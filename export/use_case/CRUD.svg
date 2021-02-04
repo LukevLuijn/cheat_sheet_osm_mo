@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="546px" preserveAspectRatio="none" style="width:608px;height:546px;" version="1.1" viewBox="0 0 608 546" width="608px" zoomAndPan="magnify"><defs><filter height="300%" id="fi4794z3ps78m" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[005506d257fab70adc88451566f9129d]
+cluster r1--><rect fill="#FFFFFF" filter="url(#fi4794z3ps78m)" height="116" style="stroke: #000000; stroke-width: 1.5;" width="219" x="208" y="233"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="203" x="216" y="247.9951">User defined stereotypes</text><!--MD5=[e06b4a2086b65e8409aaea794fc8398b]
+cluster r2--><rect fill="#FFFFFF" filter="url(#fi4794z3ps78m)" height="499.5" style="stroke: #000000; stroke-width: 1.5;" width="186" x="14" y="35.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="62.5" y="50.4951">elaboration</text><!--MD5=[752525c06a6a34605e879100972458c5]
+cluster r3--><rect fill="#FFFFFF" filter="url(#fi4794z3ps78m)" height="464.5" style="stroke: #000000; stroke-width: 1.5;" width="108" x="62" y="62.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="92" x="70" y="77.4951">&lt;&lt;CRUD&gt;&gt;</text><!--MD5=[8cc0d2e89de4973396bced0ea89db5a5]
+entity r1_a1--><ellipse cx="273" cy="269.5" fill="#FEFECE" filter="url(#fi4794z3ps78m)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M273,277.5 L273,304.5 M260,285.5 L286,285.5 M273,304.5 L260,319.5 M273,304.5 L286,319.5 " fill="none" filter="url(#fi4794z3ps78m)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="257.5" y="337.9951">user</text><ellipse cx="368.0444" cy="300.4506" fill="#FEFECE" filter="url(#fi4794z3ps78m)" rx="44.5444" ry="25.9506" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="59" x="338.5444" y="297.0876">«CRUD»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="58" x="339.0444" y="313.3844">maintain</text><!--MD5=[a6885c0d9b7cd653ab90c2f7b5acd5c9]
+entity r2_a1--><ellipse cx="38" cy="73" fill="#FEFECE" filter="url(#fi4794z3ps78m)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 1.5;"/><path d="M38,81 L38,108 M25,89 L51,89 M38,108 L25,123 M38,108 L51,123 " fill="none" filter="url(#fi4794z3ps78m)" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="22.5" y="141.4951">user</text><ellipse cx="123.1127" cy="104.0236" fill="#FEFECE" filter="url(#fi4794z3ps78m)" rx="34.1127" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="101.1127" y="108.6721">create</text><ellipse cx="122.9203" cy="300.5236" fill="#FEFECE" filter="url(#fi4794z3ps78m)" rx="24.9203" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="107.4203" y="305.1721">read</text><ellipse cx="107.1482" cy="415.5236" fill="#FEFECE" filter="url(#fi4794z3ps78m)" rx="37.6482" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="49" x="82.6482" y="420.1721">update</text><ellipse cx="105.1127" cy="504.5236" fill="#FEFECE" filter="url(#fi4794z3ps78m)" rx="34.1127" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="83.1127" y="509.1721">delete</text><path d="M227.5,8 L227.5,199.5938 L596.5,199.5938 L596.5,18 L586.5,8 L227.5,8 " fill="#FBFB77" filter="url(#fi4794z3ps78m)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M586.5,8 L586.5,18 L596.5,18 L586.5,8 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="323" x="233.5" y="25.0669">In dit voorbeeld is het gebruik en de uitwerking van</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="233.5" y="40.1997">een</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="226" x="261.5" y="40.1997">user defined stereotype (UDS)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="491.5" y="40.1997">weergegeven.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="237.5" y="55.3325"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="177" x="233.5" y="70.4653">Het UDS uit dit voorbeeld is</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="85" x="414.5" y="70.4653">&lt;&lt;CRUD&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="82" x="499.5" y="70.4653">, CRUD staat</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="231" x="233.5" y="85.5981">voor create, read, update en delete.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="237.5" y="100.731"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="324" x="233.5" y="115.8638">Een UDS houdt in dat het een samenvatting is van</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="333" x="233.5" y="130.9966">veel voorkomende use case combinaties die altijd in</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="171" x="233.5" y="146.1294">dezelfde vorm voorkomen.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="313" x="233.5" y="161.2622">CRUD komt veel voor bij dingen zoals databases,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="330" x="233.5" y="176.395">het aanmaken, bekijken, veranderen en verwijderen</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="103" x="233.5" y="191.5278">van onderdelen.</text><!--MD5=[33f1baae10a2e08117b24bec81616c73]
+link r1_a1 to r1_uc1--><path d="M288.5859,300.5 C300.1672,300.5 311.7484,300.5 323.3296,300.5 " fill="none" id="r1_a1-r1_uc1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e5ce2a3d815533f82a057e76b7a20374]
+link r2_uc1 to r2_uc2--><!--MD5=[a5ab86cb63a72e5b8a7865a41d7cc5dc]
+link r2_uc2 to r2_uc3--><!--MD5=[cb8b87a41ee40b7351361a995b9ed26c]
+link r2_uc3 to r2_uc4--><!--MD5=[59a56e2a1e1ff6dcf8bf89f89f9085b2]
+link r2_a1 to r2_uc1--><path d="M53.6055,104 C65.3519,104 77.0984,104 88.8449,104 " fill="none" id="r2_a1-r2_uc1" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[82a6dc34df293e8f839f501cfca37f1c]
+link r2_a1 to r2_uc2--><path d="M40.2492,144.7934 C42.6605,162.6707 47.4783,183.3289 57,200 C67.9283,219.1338 81.123,215.1194 94,233 C105.9258,249.5599 114.2725,271.7871 118.8554,286.1288 " fill="none" id="r2_a1-r2_uc2" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a3b0a57ac99d74f55e45a64c917ad999]
+link r2_a1 to r2_uc3--><path d="M42.2758,144.9184 C48.0347,194.0569 59.9448,278.6549 80,349 C85.2611,367.4538 93.9632,387.7702 100.0624,401.0303 " fill="none" id="r2_a1-r2_uc3" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6410a9180978d6b12a0e08d1aa8c073f]
+link r2_a1 to r2_uc4--><path d="M32.4793,144.5142 C25.4727,207.5543 18.0304,332.0551 52,430 C60.322,453.9948 78.9446,477.0976 91.7413,491.0505 " fill="none" id="r2_a1-r2_uc4" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e00adcb1c63d508d2c3e47a9cb997f3b]
+link r2 to r1--><!--MD5=[adb5a6d4583d6ee24e2c2976ebff1a6e]
+@startuml
+
+rectangle r1 as "User defined stereotypes"{
+    actor r1_a1 as "user"
+    usecase r1_uc1 as "//<<CRUD>>//
+     maintain"
+
+     r1_a1 -right- r1_uc1
+}
+
+rectangle r2 as "elaboration"{
+    actor r2_a1 as "user"
+
+    rectangle r3 as "//<<CRUD>>//"{
+        usecase r2_uc1 as "create"
+        usecase r2_uc2 as "read"
+        usecase r2_uc3 as "update"
+        usecase r2_uc4 as "delete"
+
+        r2_uc1-[hidden]down-r2_uc2
+        r2_uc2-[hidden]down-r2_uc3
+        r2_uc3-[hidden]down-r2_uc4
+    }
+
+    r2_a1 -right- r2_uc1
+    r2_a1 -right- r2_uc2
+    r2_a1 -right- r2_uc3
+    r2_a1 -right- r2_uc4
+}
+
+note as n1
+    In dit voorbeeld is het gebruik en de uitwerking van
+    een **user defined stereotype (UDS)** weergegeven.
+
+    Het UDS uit dit voorbeeld is **<<CRUD>>**, CRUD staat
+    voor create, read, update en delete.
+
+    Een UDS houdt in dat het een samenvatting is van
+    veel voorkomende use case combinaties die altijd in
+    dezelfde vorm voorkomen.
+    CRUD komt veel voor bij dingen zoals databases,
+    het aanmaken, bekijken, veranderen en verwijderen
+    van onderdelen.
+end note
+r2 .[hidden]. r1
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 12:38:32 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+33
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
