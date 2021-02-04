@@ -6,7 +6,7 @@ De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 
 ## Use cases
 
-Hieronder staan de verschillende naslag werken van de 'use case' weergegeven.
+Hieronder staan de verschillende naslag werken van de 'use case' weergegeven. 
 
 ### Actor interaction
 ![actor interaction](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/use_case/actor_interaction.svg?raw=true "Actor interaction")
