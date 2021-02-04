@@ -1,7 +1,7 @@
 
 # OSM - Modeling
 
-Dit document bevat alle in de les behandelde onderdelen met betrekking tot het 'cheat-sheat'.
+Dit document bevat alle in de les behandelde onderdelen met betrekking tot het 'cheat-sheet'.
 De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 
 <details>
