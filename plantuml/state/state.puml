@@ -1,0 +1,102 @@
+@startuml
+'https://plantuml.com/state-diagram
+
+'state name
+'entry
+'do
+'exit
+'operations
+'deferable triggers
+
+'scale 350 width
+
+state s1 as "simple state" {
+    s1 : **entry** / doe iets eenmalig
+    s1 : **do** / doe iets continue
+    s1 : doe iets dadelijk / **defer**
+    s1 : **exit** / doe iets eenmalig
+}
+
+[*] -right-> s1 : **turn on**
+note top on link
+    **initial state:**
+    Hier begint de state machine.
+end note
+
+s1 -right-> [*] : **turn off**
+note top on link
+    **final state:**
+    Hier eindigt de state machine.
+end note
+
+note as n1
+    **entry:**
+    Activiteit die eenmalig
+    uitgevoerd wordt wanneer
+    de state actief wordt.
+end note
+
+note as n2
+    **do:**
+    Activiteit die continue
+    uitgevoerd wordt tot dat
+    de exit aangeroepen wordt.
+end note
+
+note as n3
+    **exit:**
+    Activiteit die uitgevoerd
+    wordt wanneer een transitie
+    naar een andere state
+    ge-triggerd wordt.
+end note
+
+note as n4
+    **state naam**
+    Geeft de naam van de state
+    weer.
+end note
+
+note as n5
+    **deferable trigger**
+    Een bepaalde evenement die
+    geen transitie triggerd.
+
+    Wanneer er een defer plaats
+    vindt zal deze in de wacht
+    gezet worden.
+    Wanneer een state transitie
+    plaatsvind zal deze defer
+    uitgevoerd worden.
+end note
+
+note as n6
+    **Terminate**
+    Wanneer er een evenement
+    plaats heeft gevonden waardoor
+    de statemachine vroegtijdig is
+    afgesloten.
+    Terminate wordt weergegeven
+    doormiddel van een pijl vanaf
+    de state naar een **X** (kruis)
+
+    Terminate kan bijvoorbeeld
+    aangeroepen worden door een
+    "power off"-activiteit.
+end note
+
+'n2 -[hidden]left-> n1
+'n2 -[hidden]right-> n3
+
+n1 -up-> s1
+n2 -up-> s1
+n3 -up-> s1
+
+'n4 -[hidden]left-> n5
+'n4 -[hidden]right-> n6
+
+n4 -down-> s1
+n5 -down-> s1
+n6 -down-> s1
+
+@enduml
