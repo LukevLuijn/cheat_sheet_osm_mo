@@ -1,10 +1,9 @@
 @startuml
 'https://plantuml.com/state-diagram
 
-'left to right direction
+left to right direction
 
 state_0 --> state_1
-state_1 --> state_6
 
 state state_1 as "compisite state"{
     [*] --> state_2
@@ -32,6 +31,6 @@ note as n1
     in plantuml te vinden is.
 end note
 
-n1 -[hidden]left-> state_1
-n1 -[hidden]left-> state_1
+n1 -[hidden]up-> state_1
+n1 -[hidden]up-> state_1
 @enduml
