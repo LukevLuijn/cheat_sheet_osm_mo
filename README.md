@@ -72,3 +72,12 @@ De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 ---
 
 </details>
+
+<details>
+    <summary> naslagwerk - iets nieuws </summary>
+
+> TODO
+
+![](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export//?raw=true "")
+
+</details>
