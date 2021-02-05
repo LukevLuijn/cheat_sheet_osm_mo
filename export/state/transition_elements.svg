@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="317px" preserveAspectRatio="none" style="width:687px;height:317px;" version="1.1" viewBox="0 0 687 317" width="687px" zoomAndPan="magnify"><defs><filter height="300%" id="f1abmcpqkxfysh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><path d="M6,8 L6,305.5234 L302,305.5234 L302,18 L292,8 L6,8 " fill="#FBFB77" filter="url(#f1abmcpqkxfysh)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M292,8 L292,18 L302,18 L292,8 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="12" y="25.0669">1.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="18" x="30" y="25.0669">De</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="52" y="25.0669">trigger</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="16" x="107" y="25.0669">en</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="127" y="25.0669">(parameters)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="259" x="12" y="40.1997">Een trigger wordt aangeroepen door een</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="251" x="12" y="55.3325">evenement, in de parameter-list kan er</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="251" x="12" y="70.4653">vervolgens weergegeven worden wat er</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="240" x="12" y="85.5981">precies fout is gegaan. Een voorbeeld</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="202" x="12" y="100.731">van een trigger is het volgende:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="16" y="115.8638"/><text fill="#000000" font-family="monospace" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="12" y="130.9966">alarm(tooHot: alarmType)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="16" y="146.1294"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="12" y="161.2622">2.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="18" x="30" y="161.2622">De</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="56" x="52" y="161.2622">[guard]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="264" x="12" y="176.395">Een transitie kan ook een guard bevatten</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="272" x="12" y="191.5278">een guard checkt een bepaalde waarde en</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="255" x="12" y="206.6606">retourneerd een boolean, als de waarde</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="175" x="12" y="221.7935">voldoet aan de guard zal er</text><text fill="#000000" font-family="monospace" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="191" y="221.7935">true</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="194" x="12" y="236.9263">geretourneerd worden, anders</text><text fill="#000000" font-family="monospace" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="40" x="210" y="236.9263">false</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36" x="250" y="236.9263">, duh.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="16" y="252.0591"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="12" y="267.1919">3.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="30" y="267.1919">nul of meer</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="58" x="107" y="267.1919">/actions</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="250" x="12" y="282.3247">Als een transitie uitgevoerd is zullen de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="275" x="12" y="297.4575">acties van een transitie uitgevoerd worden.</text><rect fill="#FEFECE" filter="url(#f1abmcpqkxfysh)" height="207.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="338" x="337" y="53.5"/><rect fill="#FFFFFF" height="175" rx="12.5" ry="12.5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="332" x="340" y="82.7969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="337" x2="675" y1="79.7969" y2="79.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="468.5" y="71.4951">transition</text><rect fill="#FEFECE" filter="url(#f1abmcpqkxfysh)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="120" x="348" y="92.7969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="348" x2="468" y1="119.0938" y2="119.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="100" x="358" y="110.792">source state</text><rect fill="#FEFECE" filter="url(#f1abmcpqkxfysh)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="113" x="351.5" y="195.7969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="351.5" x2="464.5" y1="222.0938" y2="222.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="361.5" y="213.792">target state</text><!--MD5=[213b7e30ab6547977f5113b791c55405]
+link state_0 to state_1--><path d="M408,142.9935 C408,157.3337 408,175.3931 408,190.5022 " fill="none" id="state_0-&gt;state_1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="408,195.5034,412,186.5034,408,190.5034,404,186.5034,408,195.5034" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="232" x="409" y="173.8638">trigger(parameter list)[guard]/action</text><!--MD5=[9f9fe55c5261c729bb02b6410534dc8c]
+@startuml
+
+state state_2 as "**transition**" {
+    state state_0 as "**source state**"
+    state state_1 as "**target state**"
+
+    state_0 - -> state_1 : trigger(parameter list)[guard]/action
+}
+
+note as n1
+   **1.** De **trigger** en **(parameters)**
+   Een trigger wordt aangeroepen door een
+   evenement, in de parameter-list kan er
+   vervolgens weergegeven worden wat er
+   precies fout is gegaan. Een voorbeeld
+   van een trigger is het volgende:
+
+   **""alarm(tooHot: alarmType)""**
+
+   **2.** De **[guard]**
+   Een transitie kan ook een guard bevatten
+   een guard checkt een bepaalde waarde en
+   retourneerd een boolean, als de waarde
+   voldoet aan de guard zal er **""true""**
+   geretourneerd worden, anders **""false""**, duh.
+
+   **3.** nul of meer **/actions**
+   Als een transitie uitgevoerd is zullen de
+   acties van een transitie uitgevoerd worden.
+end note
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 12:38:32 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+33
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

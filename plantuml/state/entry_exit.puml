@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/state-diagram
+left to right direction
+
+state state_0 {
+    do_activity --> exit_action <<exitpoint>>
+    entry_action <<entrypoint>> --> do_activity
+    do_activity --> do_activity
+
+    entry_action -[hidden]up-> exit_action
+}
+
+note left of entry_action
+    **entry node**
+    Een entry node is een alternative
+    entry voor state, het geeft de
+    mogelijkheid om op een andere ma-
+    nier een composite state te
+    betreden.
+end note
+
+note right of exit_action
+    **exit node**
+    Een exit node is soortgelijk aan
+    een entry node, echter in plaats
+    van het betreden van een state
+    is de exit node bedoelt voor het
+    verlaten van een state.
+end note
+
+@enduml

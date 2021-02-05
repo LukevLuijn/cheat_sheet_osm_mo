@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/state-diagram
+
+left to right direction
+
+state s1 as "**choice/decision**" {
+    state c <<choice>>
+
+    order_placed --> c
+    c --> confirmed : [enough stock]
+    c --> cancelled : [not enough stock]
+    c --> cancelled : [user cancelled]
+}
+
+note left of s1
+    **choice node**
+    In dit voorbeeld is een choice node te zien.
+    Wanneer er een order geplaatst is zijn er drie
+    optionele paden die belopen kunnen worden.
+
+    **1.** Als er voldoende vooraad is zal de order
+    goedgekeurd worden.
+
+    **2.** Als er onvoldoende vooraad is zal de
+    order afgekeurd worden.
+
+    **3.** Als de klant de order afkapt zal de order
+    ook afgekeurd worden.
+end note
+@enduml

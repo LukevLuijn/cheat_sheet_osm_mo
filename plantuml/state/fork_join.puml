@@ -1,0 +1,63 @@
+@startuml
+'https://plantuml.com/state-diagram
+
+left to right direction
+
+state s1 as "**fork and join**"{
+    state fork_state <<fork>>
+    state join_state <<join>>
+
+    fork_state --> state_B_1
+    fork_state --> state_A_1
+
+    state_B_1 --> state_B_2
+    state_A_1 --> state_A_2
+
+    state_B_2 --> join_state
+    state_A_2 --> join_state
+}
+[*] -> fork_state
+join_state -left-> [*]
+
+note bottom of fork_state
+    **fork node**
+    Hieronder is een fork node te zien
+    een fork node splitst een inkomend
+    pad op in twee of meer losse paden.
+
+    De paden uit een fork node mogen
+    geen guards en triggers bevatten
+    omdat het dan zou kunnen voorkomen
+    dat de fork 'blijft hangen'.
+
+    De paden (route A & B) uit een fork
+    node worden parallel uitgevoerd.
+end note
+
+note bottom of join_state
+    **join node**
+    Hieronder is een join node weergegeven
+    een join node combineerd twee of meer
+    paden tot een enkel pad.
+
+    Het pad uit een fork node mag geen
+    guard of trigger bevatten omdat het
+    anders mogelijk is dat de join niet
+    uitgevoerd zal worden.
+
+    Een join zal pas gepasseerd worden
+    wanneer **alle** inkomende paden
+    bij de join aangekomen zijn.
+end note
+
+note as n1
+    **fork path**
+    een afgevorkt pad zal parallel aan
+    de andere afgevorkte paden uitgevoerd
+    worden.
+    in dit voorbeeld zal pad A en pad B
+    dus gelijktijdig uitgevoerd worden.
+end note
+n1 -[hidden]left-> state_B_2
+
+@enduml

@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/state-diagram
+
+'left to right direction
+
+state_0 --> state_1
+state_1 --> state_6
+
+state state_1 as "compisite state"{
+    [*] --> state_2
+    state_2 --> state_3
+    state_3 -right-> state_4
+    state_4 -up-> state_5
+    state_5 -up-> [*]
+}
+
+note as n1
+    **composit state**
+    Een composit state is niks meer
+    dan een geneste state machine.
+    Als de werking van een state machine
+    uitgebreider is dan het te beschrijven
+    is in een **entry/do/exit** variant
+    dan kan er gebruik gemaakt worden van
+    deze methode van weergaven.
+
+    **submachine**
+    Een submachine is in werking gelijk aan
+    een composit state maar heeft een andere
+    markering. Er staat een soort van 'infinite'
+    tekentje rechts onderaan de state die niet
+    in plantuml te vinden is.
+end note
+
+n1 -[hidden]left-> state_1
+n1 -[hidden]left-> state_1
+@enduml

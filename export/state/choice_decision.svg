@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="226px" preserveAspectRatio="none" style="width:849px;height:226px;" version="1.1" viewBox="0 0 849 226" width="849px" zoomAndPan="magnify"><defs><filter height="300%" id="f1vfgq1xl3pcgu" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><path d="M6,8 L6,214.7266 A0,0 0 0 0 6,214.7266 L314,214.7266 A0,0 0 0 0 314,214.7266 L314,115.5 L373.9529,111.5 L314,107.5 L314,18 L304,8 L6,8 A0,0 0 0 0 6,8 " fill="#FBFB77" filter="url(#f1vfgq1xl3pcgu)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M304,8 L304,18 L314,18 L304,8 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="12" y="25.0669">choice node</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="272" x="12" y="40.1997">In dit voorbeeld is een choice node te zien.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="287" x="12" y="55.3325">Wanneer er een order geplaatst is zijn er drie</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="286" x="12" y="70.4653">optionele paden die belopen kunnen worden.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="16" y="85.5981"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="12" y="100.731">1.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="256" x="30" y="100.731">Als er voldoende vooraad is zal de order</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="138" x="12" y="115.8638">goedgekeurd worden.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="16" y="130.9966"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="12" y="146.1294">2.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="234" x="30" y="146.1294">Als er onvoldoende vooraad is zal de</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="156" x="12" y="161.2622">order afgekeurd worden.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="16" y="176.395"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="14" x="12" y="191.5278">3.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="256" x="30" y="191.5278">Als de klant de order afkapt zal de order</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="145" x="12" y="206.6606">ook afgekeurd worden.</text><rect fill="#FEFECE" filter="url(#f1vfgq1xl3pcgu)" height="178.2969" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="463" x="374" y="22.5"/><rect fill="#FFFFFF" height="146" rx="12.5" ry="12.5" style="stroke: #FFFFFF; stroke-width: 1.0;" width="457" x="377" y="51.7969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="374" x2="837" y1="48.7969" y2="48.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="544" y="40.4951">choice/decision</text><polygon fill="#FEFECE" filter="url(#f1vfgq1xl3pcgu)" points="544,114.7969,556,126.7969,544,138.7969,532,126.7969,544,114.7969" style="stroke: #A80036; stroke-width: 1.5;"/><rect fill="#FEFECE" filter="url(#f1vfgq1xl3pcgu)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="385" y="101.7969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="385" x2="495" y1="128.0938" y2="128.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="395" y="119.792">order_placed</text><rect fill="#FEFECE" filter="url(#f1vfgq1xl3pcgu)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="89" x="715" y="61.7969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="715" x2="804" y1="88.0938" y2="88.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="725" y="79.792">confirmed</text><rect fill="#FEFECE" filter="url(#f1vfgq1xl3pcgu)" height="50" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="716.5" y="135.7969"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="716.5" x2="802.5" y1="162.0938" y2="162.0938"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="726.5" y="153.792">cancelled</text><!--MD5=[ae936ed623b69b2fd0f0980a9a8380c9]
+link order_placed to c--><path d="M495.0453,126.7969 C506.5044,126.7969 517.7656,126.7969 526.5928,126.7969 " fill="none" id="order_placed-&gt;c" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="531.7544,126.7969,522.7544,122.7969,526.7544,126.7969,522.7544,130.7969,531.7544,126.7969" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ef8e8a3f1774f8a1d913452ab4727e79]
+link c to confirmed--><path d="M551.0217,121.7585 C556.8758,117.8265 565.5883,112.5793 574,109.7969 C618.5235,95.0692 671.8914,89.6399 709.9304,87.7042 " fill="none" id="c-&gt;confirmed" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="714.9592,87.4641,705.7786,83.8981,709.9649,87.7026,706.1603,91.8889,714.9592,87.4641" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="96" x="587.5" y="84.8638">[enough stock]</text><!--MD5=[dd2453f54e585b80c249556fec412cc6]
+link c to cancelled--><path d="M554.7857,128.1709 C579.8224,131.399 643.804,139.8706 697,148.7969 C701.5612,149.5623 706.3018,150.3982 711.0412,151.2611 " fill="none" id="c-&gt;cancelled" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="716.175,152.206,708.048,146.6425,711.2576,151.3007,706.5995,154.5103,716.175,152.206" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="121" x="575" y="126.8638">[not enough stock]</text><!--MD5=[dd2453f54e585b80c249556fec412cc6]
+link c to cancelled--><path d="M547.2371,135.6716 C551.5526,146.0262 560.2801,162.6399 574,169.7969 C616.4059,191.9179 671.9518,185.3809 711.1713,175.9703 " fill="none" id="c-&gt;cancelled-1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="716.3525,174.6877,706.655,172.9677,711.499,175.8892,708.5775,180.7332,716.3525,174.6877" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="102" x="584.5" y="165.8638">[user cancelled]</text><!--MD5=[5f64b6b87dd7aad5efad5344f8ebeebb]
+@startuml
+
+left to right direction
+
+state s1 as "**choice/decision**" {
+    state c <<choice>>
+
+    order_placed - -> c
+    c - -> confirmed : [enough stock]
+    c - -> cancelled : [not enough stock]
+    c - -> cancelled : [user cancelled]
+}
+
+note left of s1
+    **choice node**
+    In dit voorbeeld is een choice node te zien.
+    Wanneer er een order geplaatst is zijn er drie
+    optionele paden die belopen kunnen worden.
+
+    **1.** Als er voldoende vooraad is zal de order
+    goedgekeurd worden.
+
+    **2.** Als er onvoldoende vooraad is zal de
+    order afgekeurd worden.
+
+    **3.** Als de klant de order afkapt zal de order
+    ook afgekeurd worden.
+end note
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 12:38:32 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+33
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

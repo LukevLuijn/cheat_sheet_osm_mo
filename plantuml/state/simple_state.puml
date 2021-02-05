@@ -10,11 +10,23 @@
 
 'scale 350 width
 
-state s1 as "simple state" {
+'skinparam backgroundColor black
+'skinparam monochrome true
+'skinparam monochrome reverse
+
+
+state s1 as "simple state1" {
     s1 : **entry** / doe iets eenmalig
     s1 : **do** / doe iets continue
     s1 : doe iets dadelijk / **defer**
     s1 : **exit** / doe iets eenmalig
+}
+
+state s2 as "simple state2"{
+    s2 : **entry** / doe iets eenmalig
+    s2 : **do** / doe iets continue
+    s2 : doe iets dadelijk / **defer**
+    s2 : **exit** / doe iets eenmalig
 }
 
 [*] -right-> s1
@@ -23,7 +35,9 @@ note top on link
     Hier begint de state machine.
 end note
 
-s1 -right-> [*]
+s1 -right-> s2 : trigger(params)[guard]/action
+
+s2 -right-> [*]
 note top on link
     **final state:**
     Hier eindigt de state machine.
@@ -95,8 +109,8 @@ n3 -up-> s1
 'n4 -[hidden]left-> n5
 'n4 -[hidden]right-> n6
 
-n4 -down-> s1
-n5 -down-> s1
-n6 -down-> s1
+n4 -down-> s2
+n5 -down-> s2
+n6 -down-> s2
 
 @enduml
