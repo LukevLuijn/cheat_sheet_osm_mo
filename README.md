@@ -74,10 +74,33 @@ De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 </details>
 
 <details>
-    <summary> naslagwerk - iets nieuws </summary>
+    <summary> naslagwerk - component </summary>
+
+![component - interface notation](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/component/interface_notation.svg?raw=true "Interface notation")
+
+--- 
+
+![component - interface specification](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/component/interface_specification.svg?raw=true "interface specification")
+
+---
+
+![component - port](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/component/port.svg?raw=true "Port")
+
+---
+
+![component - required provided](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/component/required_provided.svg?raw=true "Required and provided")
+
+---
+
+![component - subsystem](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/component/subsystem.svg?raw=true "Subsystem")
+
+---
+
+</details>
+
+<details>
+    <summary> naslagwerk - onbekend </summary>
 
 > TODO
-
-![](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export//?raw=true "")
 
 </details>
