@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+component [weightSensor] as ws
+interface sc as "**SensorControl**"
+
+ws -right- sc
+note on link
+    **interface specification**
+    ---
+    //SensorControl//
+    ---
+    + start() : void
+    + stop() : void
+    + switchTempCorrection() : boolean
+    + setSpeed() : int
+end note
+
+
+
+
+@enduml

@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+left to right direction
+
+rectangle r1 as "**port**\n" {
+    component [comp_a] as "<<subsystem>> \n **component_ab** \n"{
+        component [comp_a_a] as "component_a"
+        component [comp_a_b] as "component_b"
+
+        comp_a_a --left- interface
+        comp_a_b --right-( interface
+    }
+
+    rectangle port1 as " "
+
+    comp_a_a .down.> port1
+
+    port1 --( interface_a
+    port1 -- interface_b
+    port1 --( interface_c
+
+    note bottom of port1
+        port: **ROS_service : myRosService**
+        name: **myRosService** ?
+    end note
+}
+
+note right of port1
+    **port**
+    In dit voorbeeld is de weergaven van een port
+    te zien. Een port is een connectie, digitaal
+    of fysiek.
+    Een port moet voorzien worden van een instantie
+    naam en een type, deze zijn te zien in de notitie
+    gekoppeld aan de port.
+
+    Verder kan een port gekoppeld worden aan nul of
+    meerdere externe componenten/interfaces en nul
+    of meerdere interene componenten/interfaces.
+end note
+
+@enduml

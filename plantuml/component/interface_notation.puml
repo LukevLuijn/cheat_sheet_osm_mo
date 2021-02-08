@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+[componentA] -right- interfaceAB
+interfaceAB )-right- [componentB]
+note on link
+    **Ball and socket notation**
+    normale notatie.
+end note
+
+interface cd_1 as "interfaceCD"
+interface cd_2 as "interfaceCD"
+
+[componentC] -right- cd_1
+cd_1 .right. cd_2
+note on link
+    **alternative notation**
+    wanneer componeten verder
+    uit elkaar staan.
+    **extra werk in plantuml**
+end note
+cd_2 )-right- [componentD]
+
+[componentA] --[hidden]down- [componentC]
+
+@enduml

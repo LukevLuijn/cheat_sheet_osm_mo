@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+[componentA] -right-( required
+note on link
+    **required interface**
+    Deze notatie duid op een interface
+    noodzakelijk voor de werking van
+    **[componentA]**. Deze interface wordt
+    weergegeven door middel van een
+    halve maan.
+
+    In plantuml is het niet mogelijk
+    om deze notatie weer te geven zonder
+    dat het balletje (provided) ook
+    weergegeven wordt.
+end note
+
+provided -right- [componentA]
+note on link
+    **provided interface**
+    Deze notatie duid op een interface
+    die **[componentA]** aanbied.
+end note
+
+@enduml

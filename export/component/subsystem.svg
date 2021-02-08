@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="463px" preserveAspectRatio="none" style="width:705px;height:463px;" version="1.1" viewBox="0 0 705 463" width="705px" zoomAndPan="magnify"><defs><filter height="300%" id="f181cmmz7gi1pg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5dfec027cc0c1541d820a0c412aa51d5]
+cluster border--><rect fill="#FFFFFF" filter="url(#f181cmmz7gi1pg)" height="436" style="stroke: #000000; stroke-width: 1.5;" width="680" x="14" y="16"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="311" y="30.9951">subsystem</text><!--MD5=[16c00dd52f7264bd31ae52f457116191]
+cluster SensorBoard--><rect fill="#FFFFFF" filter="url(#f181cmmz7gi1pg)" height="326.5" style="stroke: #000000; stroke-width: 1.5;" width="486" x="22" y="109"/><rect fill="#FFFFFF" height="10" style="stroke: #000000; stroke-width: 1.5;" width="15" x="488" y="114"/><rect fill="#FFFFFF" height="2" style="stroke: #000000; stroke-width: 1.5;" width="4" x="486" y="116"/><rect fill="#FFFFFF" height="2" style="stroke: #000000; stroke-width: 1.5;" width="4" x="486" y="120"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="134" x="198" y="134.9951">&lt;&lt;subsystem&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="214" y="151.292">SensorBoard</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="267.5" y="167.5889"/><!--MD5=[a89ea9d84f5894a1c6d8f1b164b22ecd]
+entity port1--><rect fill="#FEFECE" filter="url(#f181cmmz7gi1pg)" height="20" style="stroke: #000000; stroke-width: 1.5;" width="20" x="526" y="178"/><!--MD5=[20ba3d1745ec99426a3c6afeb80ff0c3]
+entity iTemperature--><ellipse cx="609" cy="188" fill="#FEFECE" filter="url(#f181cmmz7gi1pg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="93" x="562.5" y="217.9951">iTemperature</text><!--MD5=[94a8a8c5702fd09d053220148c769844]
+entity SensorControl--><ellipse cx="629" cy="297" fill="#FEFECE" filter="url(#f181cmmz7gi1pg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="579.5" y="326.9951">SensorControl</text><!--MD5=[4b60518d67ff3f1e37d1f312c5cea839]
+entity WeightValues--><ellipse cx="609" cy="415" fill="#FEFECE" filter="url(#f181cmmz7gi1pg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="562" y="444.9951">WeightValues</text><!--MD5=[24707b6e1edcc3abe56dbe9cf7e33343]
+entity TestBench--><ellipse cx="251" cy="72" fill="#FEFECE" filter="url(#f181cmmz7gi1pg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="213" y="101.9951">TestBench</text><path d="M332.5,52 L332.5,92.2656 A0,0 0 0 0 332.5,92.2656 L509.703,92.2656 L533.6039,177.7058 L517.703,92.2656 L685.5,92.2656 A0,0 0 0 0 685.5,92.2656 L685.5,62 L675.5,52 L332.5,52 A0,0 0 0 0 332.5,52 " fill="#FBFB77" filter="url(#f181cmmz7gi1pg)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M675.5,52 L675.5,62 L685.5,62 L675.5,52 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="338.5" y="69.0669">port:</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="298" x="372.5" y="69.0669">Measurement connector : SerialOverUSB</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="69" x="338.5" y="84.1997">portName:</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="411.5" y="84.1997">type</text><!--MD5=[0dc3a655c088fd6165ba4a37cb8fe693]
+entity tc--><ellipse cx="340" cy="297" fill="#FEFECE" filter="url(#f181cmmz7gi1pg)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="306.5" y="326.9951">tiltCorrect</text><!--MD5=[c9750dafa4ae4a01f4cdbdcf14d4b946]
+entity ws--><rect fill="#FEFECE" filter="url(#f181cmmz7gi1pg)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="384.5" y="279"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="379.5" y="284"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="379.5" y="305.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="394.5" y="301.9951">weightSensor</text><!--MD5=[b11004e29fb17caaa709b870774d4c20]
+entity rect1--><rect fill="#FEFECE" filter="url(#f181cmmz7gi1pg)" height="36.2969" style="stroke: #000000; stroke-width: 1.5;" width="265" x="30.5" y="279"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="245" x="40.5" y="301.9951">WeightTiltCorrection : TiltCorrection</text><path d="M202.5,402.5 L202.5,427.6328 A0,0 0 0 0 202.5,427.6328 L499.5,427.6328 A0,0 0 0 0 499.5,427.6328 L499.5,412.5 L489.5,402.5 L364.6988,402.5 L427.9807,315.1789 L356.6988,402.5 L202.5,402.5 A0,0 0 0 0 202.5,402.5 " fill="#FBFB77" filter="url(#f181cmmz7gi1pg)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M489.5,402.5 L489.5,412.5 L499.5,412.5 L489.5,402.5 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="276" x="208.5" y="419.5669">A component may contain subcomponents</text><path d="M30,168 L30,208.2656 A0,0 0 0 0 30,208.2656 L190.7558,208.2656 L169.5566,278.6752 L198.7558,208.2656 L374,208.2656 A0,0 0 0 0 374,208.2656 L374,178 L364,168 L30,168 A0,0 0 0 0 30,168 " fill="#FBFB77" filter="url(#f181cmmz7gi1pg)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M364,168 L364,178 L374,178 L364,168 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="36" y="185.0669">onderdeel: Type</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="323" x="36" y="200.1997">Hier een objectinstantie van de TiltCorrection class</text><!--MD5=[b751f78ab0f9d2198c5ce168eb96d188]
+reverse link tc to ws--><path d="M359.3322,297 C367.6682,297 376.0042,297 384.3402,297 " fill="none" id="tc&lt;-ws" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M352.2424,305.4572 A9,9 0 0 0 352.2422 288.5427" fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><!--MD5=[c8265ca9d23975753d31dfebd5e46eff]
+link rect1 to tc--><path d="M295.75,297 C307.3887,297 319.0273,297 330.666,297 " fill="none" id="rect1-tc" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6fb5de8394f167d018ac7efbf09babe7]
+link port1 to ws--><path d="M527.3252,198.0591 C512.3735,215.3967 481.4106,251.3005 461.1839,274.7548 " fill="none" id="port1-&gt;ws" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="457.7865,278.6944,466.6933,274.491,461.0519,274.9079,460.6349,269.2664,457.7865,278.6944" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f67523080d4d2e00988bfb606f574cb8]
+link iTemperature to SensorControl--><!--MD5=[6bf70c27f94f5a1bceb8ce455b266c28]
+link SensorControl to WeightValues--><!--MD5=[9e5bdcf86ccbad6e4b3af864e5ef53b9]
+reverse link iTemperature to port1--><path d="M589.6712,188 C575.2027,188 560.7341,188 546.2656,188 " fill="none" id="iTemperature&lt;-port1" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M596.6098,179.5427 A9,9 0 0 0 596.6096 196.4572" fill="none" style="stroke: #A80036; stroke-width: 1.5;"/><!--MD5=[eef5ef00351fd7d2c41d78689b5e6c65]
+link port1 to SensorControl--><path d="M544.5825,198.0591 C562.5692,219.1402 603.976,267.6708 621.2308,287.8942 " fill="none" id="port1-SensorControl" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0afd1891e873bbc94ecee6ab10848e7d]
+link port1 to WeightValues--><path d="M536.0024,198.0288 C536.2999,221.2431 538.739,280.1899 555,326 C566.2451,357.6793 589.6559,390.3071 601.6179,405.7818 " fill="none" id="port1-WeightValues" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2f34bb4c0aeb4053299c8b71d5d5d3c9]
+link TestBench to SensorBoard--><path d="M260.1866,77.3122 C272.3088,84.0481 294.5126,95.4513 315,101 C323.3025,103.2486 339.3511,102.3768 354.9247,102.3787 C362.7115,102.3796 370.3796,102.599 376.9014,103.5362 C380.1623,104.0047 383.1366,104.6527 385.6958,105.5426 C386.9754,105.9875 388.1513,106.4929 389.2074,107.0665 C389.7354,107.3533 390.2334,107.6572 390.6996,107.9791 C390.9326,108.1401 391.1577,108.3056 391.3745,108.4757 C391.4829,108.5607 391.5893,108.6469 391.6935,108.7343 C391.7457,108.778 391.7973,108.822 391.8483,108.8663 " fill="none" id="TestBench-SensorBoard" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[065b1e3d7db651a315ad5a076b1a4c0e]
+@startuml
+
+rectangle border as "subsystem"{
+    component [SensorBoard] as "<<subsystem>>\nSensorBoard\n"{
+        interface tc as "tiltCorrect"
+        component [weightSensor] as ws
+        rectangle rect1 as "WeightTiltCorrection : TiltCorrection"
+
+        ws -left-( tc
+        tc -left- rect1
+
+        note as n1
+            A component may contain subcomponents
+        end note
+
+        note as n2
+            **onderdeel: Type**
+            Hier een objectinstantie van de TiltCorrection class
+        end note
+
+        ws .down. n1
+        rect1 .up. n2
+    }
+
+    rectangle port1 as " "
+
+    port1 .down.> ws
+
+    iTemperature    -[hidden]- SensorControl
+    SensorControl   -[hidden]- WeightValues
+
+    port1 -left-( iTemperature
+    port1 - - SensorControl
+    port1 - - WeightValues
+    SensorBoard -up- TestBench
+    note as n3
+        port: **Measurement connector : SerialOverUSB**
+        portName: **type**
+    end note
+
+    port1 .up. n3
+
+
+}
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 12:38:32 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+33
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
