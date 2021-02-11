@@ -1,12 +1,12 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-package "Stock Trader UI" as p1 #BAFFC9 {}
-package "GUI Lib" as p2 #BAFFC9 {}
-package "Portfolio UI" as p3 #BAFFC9 {}
+package "Stock Trader UI" as p1 #FFFFBA {}
+package "GUI Lib" as p2 #FFFFBA {}
+package "Portfolio UI" as p3 #FFFFBA {}
 
 p1 .right.> p2
-note on link
+note on link #FCA985
     **dependencies**
     --
     In dit voorbeeld staat weergegeven hoe
@@ -14,7 +14,7 @@ note on link
 end note
 p2 <.left. p3
 
-note right of p3
+note right of p3 #FCA985
     **package**
     --
     Een package geeft een namespace weer van

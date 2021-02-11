@@ -3,7 +3,7 @@
 
 left to right direction
 
-class class1 as "**basic_publisher**"
+class class1 as "**basic_publisher**" #EEEEEE
 {
     - typedef std_msgs::msg::String Message
 
@@ -15,20 +15,23 @@ class class1 as "**basic_publisher**"
     {method} - timer_callback() : void
 }
 
-class class2 as "**rclcpp::rclcpp**"
-class class3 as "**std_msgs::msg::String**"
-class class4 as "**rclcpp::Node**"
+class class2 as "**rclcpp::rclcpp**" #EEEEEE
+class class3 as "**std_msgs::msg::String**" #EEEEEE
+class class4 as "**rclcpp::Node**" #EEEEEE
 
 class2 -[hidden]right-> class3
 class1 ..> class2
 class1 ..> class3
 class1 -up-|> class4
 
-note right of class2
+note right of class2 #FCA985
     **relation: USES**
+    --
     In dit voorbeeld is te zien dat de class "**basic_publisher**"
     gebruik maakt van beide de "**std_msgs::msg::String**" &
     "**rclcpp::rclcpp**" classes.
+
+    ..
     Wat dit betekend in de code is dat de headers van deze klasse
     ge-'include' worden in de class zelf.
 end note

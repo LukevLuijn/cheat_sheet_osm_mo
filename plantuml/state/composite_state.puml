@@ -13,8 +13,9 @@ state state_1 as "compisite state"{
     state_5 -up-> [*]
 }
 
-note as n1
+note as n1 #FCA985
     **composit state**
+    --
     Een composit state is niks meer
     dan een geneste state machine.
     Als de werking van een state machine
@@ -23,7 +24,9 @@ note as n1
     dan kan er gebruik gemaakt worden van
     deze methode van weergaven.
 
+    --
     **submachine**
+    --
     Een submachine is in werking gelijk aan
     een composit state maar heeft een andere
     markering. Er staat een soort van 'infinite'

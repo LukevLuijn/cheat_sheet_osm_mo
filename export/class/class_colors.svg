@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="218px" preserveAspectRatio="none" style="width:531px;height:218px;" version="1.1" viewBox="0 0 531 218" width="531px" zoomAndPan="magnify"><defs><filter height="300%" id="f151chh2gdlbdp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[87deaade19ae8b84dc12027f3555a633]
+cluster rect1--><rect fill="#FFFFBA" filter="url(#f151chh2gdlbdp)" height="191" style="stroke: #000000; stroke-width: 1.5;" width="506" x="14" y="16"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="94" x="220" y="30.9951">class colors</text><!--MD5=[a1b4ac2004098ada3fc5e967712da2aa]
+class c1--><rect fill="#CBAACB" filter="url(#f151chh2gdlbdp)" height="48" id="c1" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="397" y="43"/><rect fill="#CBAACB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="84" x="397" y="43"/><ellipse cx="412" cy="59" fill="#A9DCDF" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M412.1094,54.3438 L410.9531,59.4219 L413.2813,59.4219 L412.1094,54.3438 Z M410.625,52.1094 L413.6094,52.1094 L416.9688,64.5 L414.5156,64.5 L413.75,61.4375 L410.4688,61.4375 L409.7188,64.5 L407.2813,64.5 L410.625,52.1094 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="52" x="426" y="63.1543">abstract</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="398" x2="480" y1="75" y2="75"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="398" x2="480" y1="83" y2="83"/><!--MD5=[dc65349992e13b8bd12d569d99e08012]
+class c2--><rect fill="#BAFFC9" filter="url(#f151chh2gdlbdp)" height="48" id="c2" style="stroke: #A80036; stroke-width: 1.5;" width="88" x="264" y="43"/><rect fill="#BAFFC9" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="88" x="264" y="43"/><ellipse cx="279" cy="59" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M274.9219,54.7656 L274.9219,52.6094 L282.3125,52.6094 L282.3125,54.7656 L279.8438,54.7656 L279.8438,62.8438 L282.3125,62.8438 L282.3125,65 L274.9219,65 L274.9219,62.8438 L277.3906,62.8438 L277.3906,54.7656 L274.9219,54.7656 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="293" y="63.1543">interface</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="265" x2="351" y1="75" y2="75"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="265" x2="351" y1="83" y2="83"/><!--MD5=[75edd33b41ae65ae17db635013db4702]
+class c3--><rect fill="#BAE1FF" filter="url(#f151chh2gdlbdp)" height="48" id="c3" style="stroke: #A80036; stroke-width: 1.5;" width="67" x="152.5" y="43"/><rect fill="#BAE1FF" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="67" x="152.5" y="43"/><ellipse cx="167.5" cy="59" fill="#EB937F" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M171.6094,65 L163.8906,65 L163.8906,52.6094 L171.6094,52.6094 L171.6094,54.7656 L166.3438,54.7656 L166.3438,57.4375 L171.1094,57.4375 L171.1094,59.5938 L166.3438,59.5938 L166.3438,62.8438 L171.6094,62.8438 L171.6094,65 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="35" x="181.5" y="63.1543">enum</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="153.5" x2="218.5" y1="75" y2="75"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="153.5" x2="218.5" y1="83" y2="83"/><!--MD5=[ae9c692e2adaf0199cfb188f8db89300]
+class c4--><rect fill="#EEEEEE" filter="url(#f151chh2gdlbdp)" height="48" id="c4" style="stroke: #A80036; stroke-width: 1.5;" width="64" x="43" y="43"/><rect fill="#EEEEEE" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="64" x="43" y="43"/><ellipse cx="58" cy="59" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M60.9688,64.6406 Q60.3906,64.9375 59.75,65.0781 Q59.1094,65.2344 58.4063,65.2344 Q55.9063,65.2344 54.5781,63.5938 Q53.2656,61.9375 53.2656,58.8125 Q53.2656,55.6875 54.5781,54.0313 Q55.9063,52.375 58.4063,52.375 Q59.1094,52.375 59.75,52.5313 Q60.4063,52.6875 60.9688,52.9844 L60.9688,55.7031 Q60.3438,55.125 59.75,54.8594 Q59.1563,54.5781 58.5313,54.5781 Q57.1875,54.5781 56.5,55.6563 Q55.8125,56.7188 55.8125,58.8125 Q55.8125,60.9063 56.5,61.9844 Q57.1875,63.0469 58.5313,63.0469 Q59.1563,63.0469 59.75,62.7813 Q60.3438,62.5 60.9688,61.9219 L60.9688,64.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="32" x="72" y="63.1543">class</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="44" x2="106" y1="75" y2="75"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="44" x2="106" y1="83" y2="83"/><path d="M386.5,151 L386.5,199.2656 A0,0 0 0 0 386.5,199.2656 L511.5,199.2656 A0,0 0 0 0 511.5,199.2656 L511.5,161 L501.5,151 L450.7633,151 L441.2442,91.2373 L442.7633,151 L386.5,151 A0,0 0 0 0 386.5,151 " fill="#FCA985" filter="url(#f151chh2gdlbdp)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M501.5,151 L501.5,161 L511.5,161 L501.5,151 " fill="#FCA985" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="392.5" y="168.0669">abstract class</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="387.5" x2="510.5" y1="171.1328" y2="171.1328"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="392.5" y="187.1997">1.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="408.5" y="187.1997">FFB3BA</text><path d="M264.5,151 L264.5,199.2656 A0,0 0 0 0 264.5,199.2656 L351.5,199.2656 A0,0 0 0 0 351.5,199.2656 L351.5,161 L341.5,151 L312,151 L308,91.2373 L304,151 L264.5,151 A0,0 0 0 0 264.5,151 " fill="#FCA985" filter="url(#f151chh2gdlbdp)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M341.5,151 L341.5,161 L351.5,161 L341.5,151 " fill="#FCA985" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="66" x="270.5" y="168.0669">interface</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="265.5" x2="350.5" y1="171.1328" y2="171.1328"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="270.5" y="187.1997">1.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="286.5" y="187.1997">FFB3BA</text><path d="M143,151 L143,199.2656 A0,0 0 0 0 143,199.2656 L229,199.2656 A0,0 0 0 0 229,199.2656 L229,161 L219,151 L190,151 L186,91.2373 L182,151 L143,151 A0,0 0 0 0 143,151 " fill="#FCA985" filter="url(#f151chh2gdlbdp)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M219,151 L219,161 L229,161 L219,151 " fill="#FCA985" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="41" x="149" y="168.0669">enum</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="144" x2="228" y1="171.1328" y2="171.1328"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="149" y="187.1997">1.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="165" y="187.1997">FFB3BA</text><path d="M22.5,151 L22.5,199.2656 A0,0 0 0 0 22.5,199.2656 L107.5,199.2656 A0,0 0 0 0 107.5,199.2656 L107.5,161 L97.5,151 L71.2367,151 L72.7558,91.2373 L63.2367,151 L22.5,151 A0,0 0 0 0 22.5,151 " fill="#FCA985" filter="url(#f151chh2gdlbdp)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M97.5,151 L97.5,161 L107.5,161 L97.5,151 " fill="#FCA985" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="37" x="28.5" y="168.0669">class</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="23.5" x2="106.5" y1="171.1328" y2="171.1328"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="12" x="28.5" y="187.1997">1.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="48" x="44.5" y="187.1997">EEEEEE</text><!--MD5=[c7ea48a60e67f64fd73870c8f0f50f57]
+reverse link c2 to c1--><!--MD5=[527f2d3aeaa358546c093c265f67ef82]
+reverse link c3 to c2--><!--MD5=[0943bcc008718aa764c3ba87c5bf011c]
+reverse link c4 to c3--><!--MD5=[53a763f91c1b370c82393c9aeb657a1b]
+@startuml
+
+rectangle rect1 as "class colors" #FFFFBA{
+
+    abstract class c1 as "abstract" #CBAACB
+    interface c2 as "interface" #BAFFC9
+    enum c3 as "enum" #BAE1FF
+    class c4 as "class" #EEEEEE
+
+    note bottom of c1 #FCA985
+        **abstract class**
+        - -
+        #FFB3BA
+    end note
+
+    note bottom of c2 #FCA985
+        **interface**
+        - -
+        #FFB3BA
+    end note
+
+    note bottom of c3 #FCA985
+        **enum**
+        - -
+        #FFB3BA
+    end note
+
+    note bottom of c4 #FCA985
+        **class**
+        - -
+        #EEEEEE
+    end note
+
+    c1 -[hidden]left-> c2
+    c2 -[hidden]left-> c3
+    c3 -[hidden]left-> c4
+}
+
+@enduml
+
+PlantUML version 1.2020.06(Sun Apr 05 12:38:32 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+33
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

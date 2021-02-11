@@ -1,24 +1,26 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-class class1 as "**MotionSensor**"{
+class class1 as "**MotionSensor**" #EEEEEE {
     {field} - sensitivity : float
     {method} + start() void
 }
 
-class class2 as "**AdjustableMotionSensor**" {
+class class2 as "**AdjustableMotionSensor**" #EEEEEE {
     {field} - offset : float
     {method} + calibrate(measurement : float) : void
 }
 
 class2 -left-|> class1
-note on link
+note on link #FCA985
     **volle pijl voor een generalisatie**
+    --
     [base class] <-- [derived class]
 end note
 
-note right of class2
+note right of class2 #FCA985
     **overerving**
+    --
     In dit voorbeeld is een generalisatie te zien tussen
     "MotionSensor" en "AdjustableMotionSensor",
     een generalisatie geeft overerving aan tussen klasse.

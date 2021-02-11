@@ -12,8 +12,9 @@ state s1 as "**choice/decision**" {
     c --> cancelled : [user cancelled]
 }
 
-note left of s1
+note left of s1 #FCA985
     **choice node**
+    --
     In dit voorbeeld is een choice node te zien.
     Wanneer er een order geplaatst is zijn er drie
     optionele paden die belopen kunnen worden.

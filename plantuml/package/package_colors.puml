@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "package" as p0 #FFFFBA {
+    package "nested package" as p1 #FFB3BA {
+        note as n1 #FCA985
+            **note**
+            --
+            #FFB3BA
+        end note
+    }
+    package "nested package" as p3 #BAFFC9 {
+        note as n3 #FCA985
+            **note**
+            --
+            #BAFFC9
+        end note
+    }
+    package "nested package" as p4 #BAE1FF {
+        note as n4 #FCA985
+            **note**
+            --
+            #BAE1FF
+        end note
+    }
+    package "nested package" as p2 #FFDFBA {
+        note as n2 #FCA985
+            **note**
+            --
+            #FFDFBA
+        end note
+    }
+    package "nested package" as p5 #CBAACB {
+        note as n5 #FCA985
+            **note**
+            --
+            #CBAACB
+        end note
+    }
+}
+
+@enduml

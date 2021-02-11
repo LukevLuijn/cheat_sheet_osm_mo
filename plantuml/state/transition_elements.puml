@@ -8,8 +8,9 @@ state state_2 as "**transition**" {
     state_0 --> state_1 : trigger(parameter list)[guard]/action
 }
 
-note as n1
+note as n1 #FCA985
    **1.** De **trigger** en **(parameters)**
+   --
    Een trigger wordt aangeroepen door een
    evenement, in de parameter-list kan er
    vervolgens weergegeven worden wat er
@@ -18,14 +19,18 @@ note as n1
 
    **""alarm(tooHot: alarmType)""**
 
+   --
    **2.** De **[guard]**
+   --
    Een transitie kan ook een guard bevatten
    een guard checkt een bepaalde waarde en
    retourneerd een boolean, als de waarde
    voldoet aan de guard zal er **""true""**
    geretourneerd worden, anders **""false""**, duh.
 
+   --
    **3.** nul of meer **/actions**
+   --
    Als een transitie uitgevoerd is zullen de
    acties van een transitie uitgevoerd worden.
 end note

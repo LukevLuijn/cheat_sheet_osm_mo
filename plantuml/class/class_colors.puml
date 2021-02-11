@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+rectangle rect1 as "class colors" #FFFFBA{
+
+    abstract class c1 as "abstract" #CBAACB
+    interface c2 as "interface" #BAFFC9
+    enum c3 as "enum" #BAE1FF
+    class c4 as "class" #EEEEEE
+
+    note bottom of c1 #FCA985
+        **abstract class**
+        --
+        #FFB3BA
+    end note
+
+    note bottom of c2 #FCA985
+        **interface**
+        --
+        #FFB3BA
+    end note
+
+    note bottom of c3 #FCA985
+        **enum**
+        --
+        #FFB3BA
+    end note
+
+    note bottom of c4 #FCA985
+        **class**
+        --
+        #EEEEEE
+    end note
+
+    c1 -[hidden]left-> c2
+    c2 -[hidden]left-> c3
+    c3 -[hidden]left-> c4
+}
+
+@enduml

@@ -3,8 +3,9 @@
 
 [componentA] -right- interfaceAB
 interfaceAB )-right- [componentB]
-note on link
+note on link #FCA985
     **Ball and socket notation**
+    --
     normale notatie.
 end note
 
@@ -13,8 +14,9 @@ interface cd_2 as "interfaceCD"
 
 [componentC] -right- cd_1
 cd_1 .right. cd_2
-note on link
+note on link #FCA985
     **alternative notation**
+    --
     wanneer componeten verder
     uit elkaar staan.
     **extra werk in plantuml**

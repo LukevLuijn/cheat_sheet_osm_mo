@@ -10,7 +10,7 @@ p1 +-- p2
 p1 +-- p3
 p1 +-- p4
 
-note right of p1
+note right of p1 #FCA985
     **nested alternative**
     --
     In dit voorbeeld is dezelfde situatie weergegevn

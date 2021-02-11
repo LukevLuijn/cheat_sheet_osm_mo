@@ -11,15 +11,17 @@ state s1 as "simple state"{
 }
 
 [*] --> s1
-note on link
+note on link #FCA985
     **initial state**
+    --
     statemachine begint altijd hier.
     Een statemachine heeft altijd mini-
     maal een initial node.
 end note
 s1 --> [*]
-note on link
+note on link #FCA985
     **Final state**
+    --
     bij de final node zal de statemachine
     op een 'nette' manier afgesloten worden.
     Het is niet noodzakelijk voor een

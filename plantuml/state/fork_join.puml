@@ -19,8 +19,9 @@ state s1 as "**fork and join**"{
 [*] -> fork_state
 join_state -left-> [*]
 
-note bottom of fork_state
+note bottom of fork_state #FCA985
     **fork node**
+    --
     Hieronder is een fork node te zien
     een fork node splitst een inkomend
     pad op in twee of meer losse paden.
@@ -34,8 +35,9 @@ note bottom of fork_state
     node worden parallel uitgevoerd.
 end note
 
-note bottom of join_state
+note bottom of join_state #FCA985
     **join node**
+    --
     Hieronder is een join node weergegeven
     een join node combineerd twee of meer
     paden tot een enkel pad.
@@ -50,8 +52,9 @@ note bottom of join_state
     bij de join aangekomen zijn.
 end note
 
-note as n1
+note as n1 #FCA985
     **fork path**
+    --
     een afgevorkt pad zal parallel aan
     de andere afgevorkte paden uitgevoerd
     worden.

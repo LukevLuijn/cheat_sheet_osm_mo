@@ -17,13 +17,15 @@ state state_2 as "**transition**" {
     state_0 --> state_1 : **[3]** trigger(parameter-list) \n **[4]** [guard] **[6]** /actions
 }
 
-note as n1
+note as n1 #FCA985
     **transitie volgorde**
+    --
     De verschillende elementen van states en
     transitie worden op een bepaalde volgorde
     uitgevoerd, deze volgorde is links weer-
     gegeven door middel van **[x]** markeringen.
 
+    --
     **1.** De entry action van de source state.
     **2.** De do activity van de source state.
     **3.** De trigger van de transitie.

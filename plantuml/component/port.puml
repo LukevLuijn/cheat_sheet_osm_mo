@@ -3,31 +3,32 @@
 
 left to right direction
 
-rectangle r1 as "**port**\n" {
-    component [comp_a] as "<<subsystem>> \n **component_ab** \n"{
-        component [comp_a_a] as "component_a"
-        component [comp_a_b] as "component_b"
+'rectangle r1 as "**port**\n" #EEEEEE {
+    component [comp_a] as "<<subsystem>> \n **component AB** \n" #BAFFC9{
+        component [comp_a_a] as "component A"
+        component [comp_a_b] as "component B"
 
-        comp_a_a --left- interface
-        comp_a_b --right-( interface
+        comp_a_a -left- interface
+        comp_a_b -right-( interface
     }
 
     rectangle port1 as " "
 
     comp_a_a .down.> port1
 
-    port1 --( interface_a
-    port1 -- interface_b
-    port1 --( interface_c
+    port1 -down-( interface_a
+    port1 -down- interface_b
+    port1 -down-( interface_c
 
-    note bottom of port1
+    note top of port1 #FCA985
         port: **ROS_service : myRosService**
         name: **myRosService** ?
     end note
-}
+'}
 
-note right of port1
+note bottom of port1 #FCA985
     **port**
+    --
     In dit voorbeeld is de weergaven van een port
     te zien. Een port is een connectie, digitaal
     of fysiek.

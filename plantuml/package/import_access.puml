@@ -1,30 +1,29 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-rectangle rect1 as "**<<import>>**\n" {
-    package "package A" as p1 #BAE1FF {}
-    package "package B" as p2 #BAFFC9 {}
+package "package A" as p1 #FFFFBA {}
+package "package B" as p2 #FFFFBA {}
 
-    p1 .right.> p2 : <<import>>
-}
+p1 .right.> p2 : <<import>>
 
-rectangle rect2 as "**<<access>>**\n" {
-    package "package A" as p3 #BAE1FF {}
-    package "package B" as p4 #BAFFC9 {}
+package "package A" as p3 #FFFFBA {}
+package "package B" as p4 #FFFFBA {}
 
-    p3 .right.> p4 : <<access>>
-}
+p3 .right.> p4 : <<access>>
 
-rect1 -[hidden]down-> rect2
+p1 -[hidden]down-> p2
+p2 -[hidden]down-> p4
 
-note left of p2
+note right of p2 #FCA985
     **<<import>>**
+    --
     Dit stereotype geeft aan dat packageA
     packageB importeerd.
 end note
 
-note left of p4
+note right of p4 #FCA985
     **<<access>>**
+    --
     Dit stereotype geeft aan dat packageC
     packageD gebruikt.
 

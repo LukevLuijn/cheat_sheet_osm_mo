@@ -1,24 +1,24 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-abstract class1 as "**//Machine//**"
+abstract class1 as "**//Machine//**" #CBAACB
 {
     {field} - location : Location
     {method} + {abstract} getStatus() : std::string
 }
 
-interface interface1 as "**//StatusLogger//**"
+interface interface1 as "**//StatusLogger//**" #BAFFC9
 {
     {method} + {abstract} logStatusToFile() : void
 }
 
-class class2 as "**WoodCutter**"
+class class2 as "**WoodCutter**" #EEEEEE
 {
     {method} + getStatus() : std:string
     {method} + logStatusToFile() : void
 }
 
-class class3 as "**HeatSensor**"
+class class3 as "**HeatSensor**" #EEEEEE
 
 class1 -[hidden]right-> interface1
 
@@ -27,21 +27,23 @@ class2 .up.|> interface1
 class3 .up.|> interface1
 
 
-note right of interface1
+note right of interface1 #FCA985
     **interface**
+    --
     Dit is een voorbeeld van een interface class
     een interface class bevat enkel **pure virtual**
     functies. Een class die een interface inplementeerd
     moet alle functies van de interface implementeren.
 end note
 
-note right of class3
+note right of class3 #FCA985
     In dit voorbeeld kan er dus geen instantie gemaakt
     worden van de class **HeatSensor**.
 end note
 
-note left of class1
+note left of class1 #FCA985
     **abstract class**
+    --
     Een abstacte klasse is een class die een of meer
     abstacte (pure virtual) functies bevat. een
     **abstracte functie** staat schuingedrukt genoteerd.
@@ -50,7 +52,7 @@ note left of class1
     moeten **alle abstracte functies** geimplementeerd zijn.
 end note
 
-note left of class2
+note left of class2 #FCA985
     De class "**WoodCutter**" implemneteerd beide de interface
     "**StatusLogger**" en de abstracte klasse "**//Machine//**"
     te zien is dat de functionaliteiten van beide de interface

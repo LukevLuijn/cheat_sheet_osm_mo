@@ -2,8 +2,9 @@
 'https://plantuml.com/component-diagram
 
 [componentA] -right-( required
-note on link
+note on link #FCA985
     **required interface**
+    --
     Deze notatie duid op een interface
     noodzakelijk voor de werking van
     **[componentA]**. Deze interface wordt
@@ -17,8 +18,9 @@ note on link
 end note
 
 provided -right- [componentA]
-note on link
+note on link #FCA985
     **provided interface**
+    --
     Deze notatie duid op een interface
     die **[componentA]** aanbied.
 end note

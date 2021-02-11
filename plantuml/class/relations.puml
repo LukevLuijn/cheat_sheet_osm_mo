@@ -1,14 +1,15 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-rectangle rect1 as "**relations**" {
-    class class1 as "CourseAdmin"
-    class class2 as "Course"
-    class1 "1   " -right-> "1..*" class2 : administers
-}
 
-note right of class2
+class class1 as "CourseAdmin" #EEEEEE
+class class2 as "Course" #EEEEEE
+class1 "1   " -right-> "1..*" class2 : administers
+
+
+note right of class2 #FCA985
     **relations**
+    --
     In dit voorbeeld is een relatie te zien tussen de
     "CourseAdmin" en de "Course".
 

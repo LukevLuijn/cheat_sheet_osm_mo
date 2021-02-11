@@ -1,20 +1,6 @@
 @startuml
 'https://plantuml.com/state-diagram
 
-'state name
-'entry
-'do
-'exit
-'operations
-'deferable triggers
-
-'scale 350 width
-
-'skinparam backgroundColor black
-'skinparam monochrome true
-'skinparam monochrome reverse
-
-
 state s1 as "simple state1" {
     s1 : **entry** / doe iets eenmalig
     s1 : **do** / doe iets continue
@@ -30,49 +16,56 @@ state s2 as "simple state2"{
 }
 
 [*] -right-> s1
-note top on link
+note top on link #FCA985
     **initial state:**
+    --
     Hier begint de state machine.
 end note
 
 s1 -right-> s2 : trigger(params)[guard]/action
 
 s2 -right-> [*]
-note top on link
+note top on link #FCA985
     **final state:**
+    --
     Hier eindigt de state machine.
 end note
 
-note as n1
+note as n1 #FCA985
     **entry:**
+    --
     Activiteit die eenmalig
     uitgevoerd wordt wanneer
     de state actief wordt.
 end note
 
-note as n2
+note as n2 #FCA985
     **do:**
+    --
     Activiteit die continue
     uitgevoerd wordt tot dat
     de exit aangeroepen wordt.
 end note
 
-note as n3
+note as n3 #FCA985
     **exit:**
+    --
     Activiteit die uitgevoerd
     wordt wanneer een transitie
     naar een andere state
     ge-triggerd wordt.
 end note
 
-note as n4
+note as n4 #FCA985
     **state naam**
+    --
     Geeft de naam van de state
     weer.
 end note
 
-note as n5
+note as n5 #FCA985
     **deferable trigger**
+    --
     Een bepaalde evenement die
     geen transitie triggerd.
 
@@ -84,8 +77,9 @@ note as n5
     uitgevoerd worden.
 end note
 
-note as n6
-    **Terminate**
+note as n6 #FCA985
+    **terminate**
+    --
     Wanneer er een evenement
     plaats heeft gevonden waardoor
     de statemachine vroegtijdig is
@@ -99,15 +93,9 @@ note as n6
     "power off"-activiteit.
 end note
 
-'n2 -[hidden]left-> n1
-'n2 -[hidden]right-> n3
-
 n1 -up-> s1
 n2 -up-> s1
 n3 -up-> s1
-
-'n4 -[hidden]left-> n5
-'n4 -[hidden]right-> n6
 
 n4 -down-> s2
 n5 -down-> s2

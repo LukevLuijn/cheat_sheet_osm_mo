@@ -12,7 +12,7 @@ package p1 as "Business" #FFFFBA {
     p1.1 <.right. p1.2
 }
 
-note left of p1.3
+note left of p1.3 #FCA985
     **nested packages**
     --
     In dit voorbeeld zijn verschillende **nested packages**

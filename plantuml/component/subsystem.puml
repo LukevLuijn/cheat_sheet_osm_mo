@@ -1,46 +1,42 @@
 @startuml
 'https://plantuml.com/component-diagram
 
-rectangle border as "subsystem"{
-    component [SensorBoard] as "<<subsystem>>\nSensorBoard\n"{
-        interface tc as "tiltCorrect"
-        component [weightSensor] as ws
-        rectangle rect1 as "WeightTiltCorrection : TiltCorrection"
+component [SensorBoard] as "<<subsystem>>\nSensorBoard\n" #BAFFC9{
+    interface tc as "tiltCorrect"
+    component [weightSensor] as ws
+    rectangle rect1 as "WeightTiltCorrection : TiltCorrection"
 
-        ws -left-( tc
-        tc -left- rect1
+    ws -left-( tc
+    tc -left- rect1
 
-        note as n1
-            A component may contain subcomponents
-        end note
-
-        note as n2
-            **onderdeel: Type**
-            Hier een objectinstantie van de TiltCorrection class
-        end note
-
-        ws .down. n1
-        rect1 .up. n2
-    }
-
-    rectangle port1 as " "
-
-    port1 .down.> ws
-
-    iTemperature    -[hidden]- SensorControl
-    SensorControl   -[hidden]- WeightValues
-
-    port1 -left-( iTemperature
-    port1 -- SensorControl
-    port1 -- WeightValues
-    SensorBoard -up- TestBench
-    note as n3
-        port: **Measurement connector : SerialOverUSB**
-        portName: **type**
+    note as n1 #FCA985
+        A component may contain subcomponents
     end note
 
-    port1 .up. n3
+    note as n2 #FCA985
+        **onderdeel: Type**
+        Hier een objectinstantie van de TiltCorrection class
+    end note
 
-
+    ws .down. n1
+    rect1 .up. n2
 }
+
+rectangle port1 as " "
+
+port1 .down.> ws
+
+iTemperature    -[hidden]- SensorControl
+SensorControl   -[hidden]- WeightValues
+
+port1 -left-( iTemperature
+port1 -right- SensorControl
+port1 -- WeightValues
+SensorBoard -up- TestBench
+note as n3 #FCA985
+    port: **Measurement connector : SerialOverUSB**
+    portName: **type**
+end note
+
+port1 .up. n3
 @enduml
