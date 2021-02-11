@@ -137,13 +137,26 @@ De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 ---
 
 ![package - dependency](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/dependency.svg?raw=true "Dependency")
+
+---
+
 ![package - nested package](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/nested_packages.svg?raw=true "Nested package")
+
+---
+
 ![package - nested alternative](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/nested_alternative.svg?raw=true "Nested package alternative")
+
+---
+
 ![package - import access](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/import_access.svg?raw=true "Import and access")
+
+---
+
 ![package - example base ](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/example_base.svg?raw=true "Large example: layered")
+
+---
+
 ![package - example expansion](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/example_expansion.svg?raw=true "Layered expansion")
-
-
 
 ---
 
