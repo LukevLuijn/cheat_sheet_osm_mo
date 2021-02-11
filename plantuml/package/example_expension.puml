@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "<<expanded>>\npresentation_layer" as p1 #FFB3BA{
+
+    package "user_interface" as p1.1 #DDDDDD {}
+    package "presentation_logic" as p1.2 #DDDDDD {}
+}
+
+package "<<expanded>>\nservices_layer" as p2 #FFDFBA {
+    package "user_interface" as p2.1 #DDDDDD {}
+    package "presentation_logic" as p2.2 #DDDDDD {}
+}
+
+package "<<expanded>>\nbusiness_layer" as p3 #BAFFC9 {
+    package "application_facade" as p3.1 #DDDDDD {}
+    package "business_workflow" as p3.2 #DDDDDD {}
+    package "business_components" as p3.3 #DDDDDD {}
+    package "business_entities" as p3.4 #DDDDDD {}
+
+    p3.1 ..> p3.2
+    p3.1 ..> p3.3
+    p3.1 ..> p3.4
+}
+
+package "<<expanded>>\ndata_layer" as p4 #BAE1FF{
+    package "data_access" as p4.1 #DDDDDD {}
+    package "service_agents" as p4.2 #DDDDDD {}
+}
+
+package "<<expanded>>\ncross_cutting" as p5 #CBAACB {
+    package "security" as p5.1 #DDDDDD {}
+    package "operational_management" as p5.2 #DDDDDD {}
+    package "communication" as p5.3 #DDDDDD {}
+}
+
+p1 -[hidden]up-> p2
+p2 -[hidden]up-> p4
+p4 -[hidden]left-> p5
+
+@enduml
