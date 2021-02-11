@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "Business" as p1 #FFFFBA {}
+package "Accounting" as p2 #BAE1FF {}
+package "Ordering" as p3 #FFDFBA {}
+package "Shipping" as p4 #BAFFC9{}
+
+p1 +-- p2
+p1 +-- p3
+p1 +-- p4
+
+note right of p1
+    **nested alternative**
+    --
+    In dit voorbeeld is dezelfde situatie weergegevn
+    als in de voorgaande afbeelding (**nested_packages**)
+    alleen dan op een andere manier weergegeven.
+
+    --
+    **note**
+    --
+    Deze methode van weergeven wordt 'native' ondersteund
+    door plantuml, bij de andere methode moest er een
+    **allowmixing** modifier toegevoegd worden.
+    Persoonlijk vind ik de andere overzichtelijker.
+end note
+
+@enduml

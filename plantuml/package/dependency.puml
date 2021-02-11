@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package "Stock Trader UI" as p1 #BAFFC9 {}
+package "GUI Lib" as p2 #BAFFC9 {}
+package "Portfolio UI" as p3 #BAFFC9 {}
+
+p1 .right.> p2
+note on link
+    **dependencies**
+    --
+    In dit voorbeeld staat weergegeven hoe
+    een dependency eruit ziet tussen packages.
+end note
+p2 <.left. p3
+
+note right of p3
+    **package**
+    --
+    Een package geeft een namespace weer van
+    een bepaald onderdeel van de applicatie.
+    Alles wat in een package zit valt onder de
+    namespace van die specifieke package.
+
+    het is ook handig om de daadwerkelijke
+    code in de directory structuur te verwerken
+    op de manier dat de packages uitgewerkt staan.
+end note
+
+@enduml

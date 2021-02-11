@@ -1,0 +1,91 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+package layered_example as pkg0 #FFFFBA{
+    package "user" as pkg1 #DDDDDD {}
+    package "<<collapsed>>\npresentation_layer" as pkg2 #FFB3BA{}
+    package "<<collapsed>>\nservices_layer" as pkg3 #FFDFBA{}
+    package "external_systems" as pkg4 #DDDDDD {}
+
+    package "<<collapsed>>\nbusiness_layer" as pkg5 #BAFFC9{}
+    package "<<collapsed>>\ndata_layer" as pkg6 #BAE1FF{}
+    package "<<collapsed>>\ncross_cutting" as pkg7 #CBAACB{}
+    package "data_sources" as pkg8 #DDDDDD {}
+    package "external_services" as pkg9 #DDDDDD {}
+
+    pkg3 .[hidden]left.> pkg2
+
+    pkg1 ..> pkg2
+    pkg4 ..> pkg3
+
+    pkg3 .down.> pkg5
+    pkg2 .down.> pkg5
+
+    pkg5 -[hidden]down-> pkg6
+
+    pkg5 .down.> pkg6
+    pkg6 ..> pkg8
+    pkg6 ..> pkg9
+
+    pkg7 <.. pkg2
+    pkg7 <.. pkg3
+    pkg7 <.. pkg5
+    pkg7 <.. pkg6
+}
+
+package "<<expanded>>\npresentation_layer" as p1 #FFB3BA{
+    package "user_interface" as p1.1 #DDDDDD {}
+    package "presentation_logic" as p1.2 #DDDDDD {}
+}
+
+package "<<expanded>>\nservices_layer" as p2 #FFDFBA {
+    package "user_interface" as p2.1 #DDDDDD {}
+    package "presentation_logic" as p2.2 #DDDDDD {}
+}
+
+package "<<expanded>>\nbusiness_layer" as p3 #BAFFC9 {
+    package "application_facade" as p3.1 #DDDDDD {}
+    package "business_workflow" as p3.2 #DDDDDD {}
+    package "business_components" as p3.3 #DDDDDD {}
+    package "business_entities" as p3.4 #DDDDDD {}
+
+    p3.1 ..> p3.2
+    p3.1 ..> p3.3
+    p3.1 ..> p3.4
+}
+
+package "<<expanded>>\ndata_layer" as p4 #BAE1FF{
+    package "data_access" as p4.1 #DDDDDD {}
+    package "service_agents" as p4.2 #DDDDDD {}
+}
+
+package "<<expanded>>\ncross_cutting" as p5 #CBAACB {
+    package "security" as p5.1 #DDDDDD {}
+    package "operational_management" as p5.2 #DDDDDD {}
+    package "communication" as p5.3 #DDDDDD {}
+}
+
+p1 -[hidden]-> p2
+p2 -[hidden]-> p4
+p4 -[hidden]-> p5
+
+note as n1
+    **layered_example**
+    In dit voorbeeld heb ik een meer uitgebreidere variant
+    van een nested package systeem uitgewerkt.
+
+    Omdat het positioneren van de verschillende packages
+    erg lastig gaat met plantuml heb ik er voor gekozen
+    om alle packages zonder inhoud weer te geven in de package
+    **"layered_example"**. Naast de "layered_example" staan
+    de packages die inhoudelijk iets bevatten nogmaals weergegevn
+    met het stereotype **<<expanded>>**.
+    Met het gebruik van verschillende kleuren heb ik een poging
+    gedaan om er een overzichtelijk diagram van te maken.
+end note
+
+n1 -[hidden]left-> p5
+
+
+
+@enduml

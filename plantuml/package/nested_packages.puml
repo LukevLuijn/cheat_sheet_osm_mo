@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+allowmixing
+
+package p1 as "Business" #FFFFBA {
+    package "Accounting" as p1.1 #BAE1FF{}
+    package "Ordering" as p1.2 #FFDFBA{}
+    package "Shipping" as p1.3 #BAFFC9{}
+
+    p1.2 .left.> p1.3
+    p1.1 <.right. p1.2
+}
+
+note left of p1.3
+    **nested packages**
+    --
+    In dit voorbeeld zijn verschillende **nested packages**
+    te zien. De huidige package 'Shipping' is een ge-neste
+    package van 'Business'.
+
+    In code betekend dit dat om de functionaliteiten van
+    Shipping te benaderen je de namespace Business::Shipping
+    zal moeten gebruiken.
+
+    --
+    **note**
+    --
+    Het is handig om gebruik te maken van kleur als je nested
+    packages gaat toepassen in je diagram.
+end note
+
+@enduml
