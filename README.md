@@ -76,6 +76,8 @@ De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 <details>
     <summary> naslagwerk - component </summary>
 
+---
+
 ![component - interface notation](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/component/interface_notation.svg?raw=true "Interface notation")
 
 --- 
@@ -99,8 +101,50 @@ De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 </details>
 
 <details>
-    <summary> naslagwerk - onbekend </summary>
+    <summary> naslagwerk - class </summary>
 
-> TODO
+---
+
+![class - base class](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/class/base_class.svg?raw=true "Base class")
+
+---
+
+![class - generalization](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/class/generalization.svg?raw=true "Generalization")
+
+---
+
+![class - relations](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/class/relations.svg?raw=true "Relations")
+
+---
+
+![class - abstract interface](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/class/abstract_interface.svg?raw=true "Abstract and Interface")
+
+---
+
+![class - dependency](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/class/dependency.svg?raw=true "Dependency")
+
+---
+
+![class - association](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/class/association_class.svg?raw=true "Association class")
+
+---
+
+</details>
+
+<details>
+    <summary> naslagwerk - package </summary>
+
+---
+
+![package - dependency](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/dependency.svg?raw=true "Dependency")
+![package - nested package](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/nested_packages.svg?raw=true "Nested package")
+![package - nested alternative](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/nested_alternative.svg?raw=true "Nested package alternative")
+![package - import access](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/import_access.svg?raw=true "Import and access")
+![package - example base ](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/example_base.svg?raw=true "Large example: layered")
+![package - example expansion](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/example_expansion.svg?raw=true "Layered expansion")
+
+
+
+---
 
 </details>
