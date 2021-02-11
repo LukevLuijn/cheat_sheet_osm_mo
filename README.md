@@ -154,8 +154,6 @@ De volgorde zal hetzelfde zijn als de volgorde van de lessen.
 
 ![package - example base ](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/example_base.svg?raw=true "Large example: layered")
 
----
-
 ![package - example expansion](https://github.com/LukevLuijn/cheat_sheet_osm_mo/blob/main/export/package/example_expansion.svg?raw=true "Layered expansion")
 
 ---
