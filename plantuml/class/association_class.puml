@@ -1,0 +1,23 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class class1 as "**Company**"
+class class2 as "**Person**"
+class class3 as "**Employment**"
+
+class1 --|> class2
+(class1, class2) .. class3
+
+note on link
+    "**association class**"
+    De connectie hier te zien is een connectie van een
+    "**association class**" naar de associatie waar de
+    class betrekking tot heeft.
+end note
+
+note right of class3
+    In dit voorbeeld wordt weergegeven hoe de
+    **association class** betrekking heeft tot de
+    rest van het systeem.
+end note
+@enduml

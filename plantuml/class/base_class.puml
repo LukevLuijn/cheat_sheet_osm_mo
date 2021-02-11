@@ -1,0 +1,68 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class class0 as "BaseClass"
+{
+    {field} - name : std::string
+    {field} - number : uint16_t
+    ---
+    .. operators ..
+
+    {method} + operator=(other : BaseClass) : BaseClass
+    {method} + operator==(other : BaseClass) : bool
+    {method} + operator<(other : BaseClass) : bool
+
+    .. getters/setters ..
+
+    {method} + getName() : std::string
+    {method} + setName(name : std::string) : void
+    {method} + getNumber() : uint16_t
+    {method} + setNumber(number : uint16_t) : void
+}
+
+class class1 as "Visibility"
+{
+    {field} - private_field : int
+    {field} + public_field : int
+    {field} # protected_field : int
+    {field} ~ package_private_field : int
+
+    {method} - private_method : void
+    {method} + public_method : void
+    {method} # protected_method : void
+    {method} ~ package_private_method : void
+}
+
+class0 -[hidden]-> class1
+
+note right of class0
+    **class**
+    In dit voorbeeld is een class te zien en hoe deze uitgewerkt
+    moet worden. Een class bestaat uit drie verschillende onderdelen:
+
+    **1.** Naam van de class, in dit geval **"BaseClass"**
+
+    **2.** De attributen (fields) van de class, deze zijn vermeld direct
+    onder de naam van de class gescheiden door een lijn.
+    Een attribuut woord genoteerd als **<naam> : <type> **
+
+    **3.** de methode (operations) van de class, deze staan weer direct
+    onder de atributen. een methode wordt genoteerd als:
+    **<naam methode>(<parameter_naam> : <parameter_type>) : return type**
+
+    verder heeft elk onderdeel van de class behalve de naam een
+    visablity, het icoontje voor de notatie, deze geeft aan wat de visablity
+    van de class is, de verschillende opties zijn onder de BaseClass
+    uitgewerkt.
+end note
+
+note right of class1
+    **visablity**
+    in de class visability staan de verschillende opties voor de zichtbaarheid
+    van class onderdelen weergegeven. De werking tussen method en field zijn
+    hetzelfde maar de notatie in plantuml is anders, vandaar dat ze beide
+    genoteerd staan.
+
+    Wat niet geheel duidelijk is is wat een **package_private** inhoud.
+end note
+@enduml

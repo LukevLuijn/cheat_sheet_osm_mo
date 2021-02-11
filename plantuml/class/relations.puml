@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+rectangle rect1 as "**relations**" {
+    class class1 as "CourseAdmin"
+    class class2 as "Course"
+    class1 "1   " -right-> "1..*" class2 : administers
+}
+
+note right of class2
+    **relations**
+    In dit voorbeeld is een relatie te zien tussen de
+    "CourseAdmin" en de "Course".
+
+    Het is te zien door de richting van de pijl dat de
+    "CourseAdmin" **een of meerdere** courses van bevatten
+    en dat een course **precies een** "CourseAdmin" bevat.
+
+    De **relatie** tussen de classen is dat de "CourseAdmin"
+    de course 'aministers'
+end note
+@enduml
