@@ -3,23 +3,22 @@
 
 left to right direction
 
-state s1 as "**fork and join**"{
-    state fork_state <<fork>>
-    state join_state <<join>>
+state fork_state <<fork>>
+state join_state <<join>>
 
-    fork_state --> state_B_1
-    fork_state --> state_A_1
+fork_state --> state_B_1
+fork_state --> state_A_1
 
-    state_B_1 --> state_B_2
-    state_A_1 --> state_A_2
+state_B_1 --> state_B_2
+state_A_1 --> state_A_2
 
-    state_B_2 --> join_state
-    state_A_2 --> join_state
-}
-[*] -> fork_state
-join_state -left-> [*]
+state_B_2 --> join_state
+state_A_2 --> join_state
 
-note bottom of fork_state #FCA985
+[*] --> fork_state
+join_state --> [*]
+
+note as n1 #FCA985
     **fork node**
     --
     Hieronder is een fork node te zien
@@ -35,7 +34,7 @@ note bottom of fork_state #FCA985
     node worden parallel uitgevoerd.
 end note
 
-note bottom of join_state #FCA985
+note as n2 #FCA985
     **join node**
     --
     Hieronder is een join node weergegeven
@@ -52,7 +51,7 @@ note bottom of join_state #FCA985
     bij de join aangekomen zijn.
 end note
 
-note as n1 #FCA985
+note as n3 #FCA985
     **fork path**
     --
     een afgevorkt pad zal parallel aan
@@ -61,6 +60,11 @@ note as n1 #FCA985
     in dit voorbeeld zal pad A en pad B
     dus gelijktijdig uitgevoerd worden.
 end note
-n1 -[hidden]left-> state_B_2
+
+n1 -right-> fork_state
+n2 -right-> join_state
+
+n3 -right-> state_B_1
+n3 -right-> state_B_2
 
 @enduml

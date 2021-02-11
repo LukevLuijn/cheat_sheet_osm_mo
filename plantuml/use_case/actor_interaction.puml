@@ -1,24 +1,24 @@
 @startuml
 'https://plantuml.com/use-case-diagram
 
-rectangle r1 as "interaction" {
-    package "security" as p1{
-        usecase enter_password as uc1
-        usecase change_password as uc2
+rectangle "security" as p1 #DDDDDD{
+    usecase enter_password as uc1
+    usecase change_password as uc2
 
-        uc1 -[hidden]up-> uc2
-    }
-
-    actor "admin" as a1
-    actor "resident" as a2
-
-    a1 -right- uc2
-    a2 -right- uc1
-
-    a1 --|> a2
+    uc1 -[hidden]up-> uc2
 }
 
-note as n1
+actor "admin" as a1
+actor "resident" as a2
+
+a1 -right- uc2
+a2 -right- uc1
+
+a1 --|> a2
+
+note as n1 #FCA985
+    **interactie**
+    --
     De lijn tussen een actor en een
     use case staat voor de
     mogelijkheid tot interactie.

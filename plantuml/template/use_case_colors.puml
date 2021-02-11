@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+
+actor "user" as actor1
+actor "super user" as actor2
+
+rectangle rect1 as "system boundary" #DDDDDD{
+    usecase usecase1 as "some usecase\n\n..\n**#no color**"
+    usecase usecase3 as "definitely necessary\n\n..\n**#BAFFC9**" #BAFFC9
+    usecase usecase2 as  "maybe necessary\n__\n**extension point**\ndo something else\n\n..\n**#FFB3BA**" #FFB3BA
+    usecase usecase4 as "**<<CRUD>>**\nmaintain\n\n..\n**#CBAACB**" #CBAACB
+
+    usecase2 .[hidden]right.> usecase3
+    usecase1 <.. usecase3 : "**<<include>>**"
+    usecase1 ..> usecase2 : "**<<extend>>**"
+    note top on link #FFB3BA
+        **condition** some condition
+        **extension point** do something else
+        ..
+        **#FFB3BA**
+    end note
+}
+
+actor1 --- usecase1
+actor2 --- usecase4
+actor2 -left-|> actor1
+
+@enduml

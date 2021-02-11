@@ -1,40 +1,29 @@
 @startuml
 'https://plantuml.com/use-case-diagram
 
-rectangle r1 as "User defined stereotypes"{
-    actor r1_a1 as "user"
-    usecase r1_uc1 as "//<<CRUD>>//
-     maintain"
+actor actor1 as "user"
+rectangle rect1 as "system boundary" #DDDDDD{
+    usecase usecase1 as "//<<CRUD>>//\n**maintain**"  #CBAACB
+}
+actor1 -right- usecase1
 
-     r1_a1 -right- r1_uc1
+rectangle rect2 as "**<<CRUD>>**" #DDDDDD{
+    usecase usecase2 as "create" #BAFFC9
+    usecase usecase3 as "read" #BAFFC9
+    usecase usecase4 as "update" #BAFFC9
+    usecase usecase5 as "delete" #BAFFC9
 }
 
-rectangle r2 as "elaboration"{
-    actor r2_a1 as "user"
+usecase1 <.. usecase2 : **<<include>>**
+usecase1 <.. usecase3 : **<<include>>**
+usecase1 <.. usecase4 : **<<include>>**
+usecase1 <.. usecase5 : **<<include>>**
 
-    rectangle r3 as "//<<CRUD>>//"{
-        usecase r2_uc1 as "create"
-        usecase r2_uc2 as "read"
-        usecase r2_uc3 as "update"
-        usecase r2_uc4 as "delete"
-
-        r2_uc1-[hidden]down-r2_uc2
-        r2_uc2-[hidden]down-r2_uc3
-        r2_uc3-[hidden]down-r2_uc4
-    }
-
-    r2_a1 -right- r2_uc1
-    r2_a1 -right- r2_uc2
-    r2_a1 -right- r2_uc3
-    r2_a1 -right- r2_uc4
-}
-
-note as n1
+note as n1 #FCA985
+    **user defined stereotype**
+    --
     In dit voorbeeld is het gebruik en de uitwerking van
     een **user defined stereotype (UDS)** weergegeven.
-
-    Het UDS uit dit voorbeeld is **<<CRUD>>**, CRUD staat
-    voor create, read, update en delete.
 
     Een UDS houdt in dat het een samenvatting is van
     veel voorkomende use case combinaties die altijd in
@@ -42,6 +31,12 @@ note as n1
     CRUD komt veel voor bij dingen zoals databases,
     het aanmaken, bekijken, veranderen en verwijderen
     van onderdelen.
+
+    --
+    **<<CRUD>>**
+    --
+    Het UDS uit dit voorbeeld is <<CRUD>>, CRUD staat
+    voor create, read, update en delete.
 end note
-r2 .[hidden]. r1
+
 @enduml

@@ -3,16 +3,15 @@
 
 left to right direction
 
-state s1 as "**choice/decision**" {
-    state c <<choice>>
+state c <<choice>>
 
-    order_placed --> c
-    c --> confirmed : [enough stock]
-    c --> cancelled : [not enough stock]
-    c --> cancelled : [user cancelled]
-}
+order_placed --> c
+c --> confirmed : [enough stock]
+c --> cancelled : [not enough stock]
+c --> cancelled : [user cancelled]
 
-note left of s1 #FCA985
+
+note as n1 #FCA985
     **choice node**
     --
     In dit voorbeeld is een choice node te zien.
@@ -28,4 +27,7 @@ note left of s1 #FCA985
     **3.** Als de klant de order afkapt zal de order
     ook afgekeurd worden.
 end note
+
+n1 -[hidden]up-> confirmed
+n1 -[hidden]up-> confirmed
 @enduml

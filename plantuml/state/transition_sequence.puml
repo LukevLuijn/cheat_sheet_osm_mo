@@ -1,7 +1,7 @@
 @startuml
 'https://plantuml.com/state-diagram
 
-state state_2 as "**transition**" {
+'state state_2 as "**transition**" {
     state state_0 as "**source state**" {
         state_0 : **[1]** **entry** / do action
         state_0 : **[2]** **do** / do activity
@@ -14,8 +14,8 @@ state state_2 as "**transition**" {
         state_1 : **[-]** **defer** / do action later
         state_1 : **[-]** **exit** / do action
     }
-    state_0 --> state_1 : **[3]** trigger(parameter-list) \n **[4]** [guard] **[6]** /actions
-}
+    state_0 --> state_1 : \t**[3]** trigger(parameter-list) **[4]** [guard] **[6]** /actions
+'}
 
 note as n1 #FCA985
     **transitie volgorde**
@@ -34,7 +34,9 @@ note as n1 #FCA985
     **6.** De actions van de transitie.
     **7.** De eventuele defers.
     **8.** De entry van de target state.
-
 end note
+
+n1 -[hidden]left-> state_0
+n1 -[hidden]left-> state_0
 
 @enduml

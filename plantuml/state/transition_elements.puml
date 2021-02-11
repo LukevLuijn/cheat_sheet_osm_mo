@@ -1,12 +1,11 @@
 @startuml
 'https://plantuml.com/state-diagram
 
-state state_2 as "**transition**" {
-    state state_0 as "**source state**"
-    state state_1 as "**target state**"
 
-    state_0 --> state_1 : trigger(parameter list)[guard]/action
-}
+state state_0 as "**source state**"
+state state_1 as "**target state**"
+state_0 --> state_1 : \t**trigger(parameter list)[guard]/action**
+
 
 note as n1 #FCA985
    **1.** De **trigger** en **(parameters)**
